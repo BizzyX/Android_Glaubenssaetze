@@ -1,0 +1,4 @@
+#Fri Oct 26 20:04:29 CEST 2018
+base.0=C\:\\Users\\Phil\\Documents\\FH_Bielefeld\\Glaubenssaetze_App\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+path.0=classes.dex
+renamed.0=classes.dex
