@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Glaubenssaetze_App</string>
+    <string name="editText_error_message">Keine gültige Eingabe</string>
+    <string name="cab_delete">Einträge löschen</string>
+    <string name="cab_change">Einträge bearbeiten</string>
+    <string name="cab_checked_string">ausgewählt</string>
+    <string name="dialog_title">Listeneintrag ändern</string>
+    <string name="dialog_title_sentence">Glaubenssatz:</string>
+    <string name="dialog_button_positive">Ändern</string>
+    <string name="dialog_button_negative">Abbrechen</string>
+
+    <string name="play_help_sound">Hilfe</string>
+    <string name="usefull_app">Was bringt es Ihnen diese App zu benutzen?</string>
+    <string name="find_sentences">So finden Sie Ihre Glaubenssaetze</string>
+    <string name="stop_sound">Stop</string>
+    <string name="satzpaar_eingeben">Satzpaar eingeben</string>
+    <string name="glaubenssaetze">Glaubenssaetze</string>
+    <string name="satzpaar_generieren">Satzpaar generieren</string>
+    <string name="satzpaare_anzeigen">Satzpaare anzeigen</string>
+    <string name="wallnuss">wallnuss</string>
+    <string name="Menu">Menü</string>
+    <string name="Weiter">Weiter</string>
+    <string name="passendeglaubenssatze">Wie finde ich passende Glaubenssaetze?</string>
+
+</resources>
