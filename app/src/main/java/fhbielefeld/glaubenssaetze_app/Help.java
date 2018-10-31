@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.SeekBar;
 
 /**
  * Created by philpetschull on 20.06.18.
@@ -23,7 +25,8 @@ public class Help extends AppCompatActivity{
         //Find Sentence
         final MediaPlayer findSentence = MediaPlayer.create(this, R.raw.find_sentences);
 
-        Button playfindSentence = (Button) this.findViewById(R.id.find_sentences);
+
+        ImageButton playfindSentence = (ImageButton) this.findViewById(R.id.playbutton1);
 
         //Play Sound
         playfindSentence.setOnClickListener(new View.OnClickListener() {
@@ -34,7 +37,7 @@ public class Help extends AppCompatActivity{
 
         });
         //Stop Sound
-        Button stopfindSentence = (Button) this.findViewById(R.id.stop_sound1);
+        ImageButton stopfindSentence = (ImageButton) this.findViewById(R.id.stopbutton1);
 
         stopfindSentence.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -54,7 +57,7 @@ public class Help extends AppCompatActivity{
         //Useful App
         final MediaPlayer usefullApp = MediaPlayer.create(this,R.raw.usefull_app);
 
-        Button playusefullApp = (Button) this.findViewById(R.id.usefull_app);
+        ImageButton playusefullApp = (ImageButton) this.findViewById(R.id.playbutton2);
 
         //Play Sound
         playusefullApp.setOnClickListener(new View.OnClickListener(){
@@ -65,7 +68,7 @@ public class Help extends AppCompatActivity{
         });
 
         //Stop Sound
-        Button stopusefullSentence = (Button) this.findViewById(R.id.stop_sound2);
+        ImageButton stopusefullSentence = (ImageButton) this.findViewById(R.id.stopbutton2);
 
         stopusefullSentence.setOnClickListener(new View.OnClickListener() {
             @Override
