@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v17\\values-v17.xml",
+            "outputFile": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v17/values-v17.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\values-v17\\values-v17.xml",
+                    "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/values-v17/values-v17.xml",
                     "from": {
                         "startLines": "2,5,9,12,15,18,22,26,29,32,35,39,42,46",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
