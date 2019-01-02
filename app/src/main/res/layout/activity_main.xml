@@ -4,17 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    style="@style/AppCompat"
     tools:context="fhbielefeld.glaubenssaetze_app.MainActivity"
     tools:layout_editor_absoluteY="81dp">
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="331dp"
-        android:layout_height="46dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:fontFamily="serif"
         android:text="@string/glaubenssaetze"
         android:textAlignment="center"
+        android:textColor="#000000"
         android:textSize="30sp"
+        android:textStyle="bold|italic"
+        android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,37 +29,39 @@
     <Button
         android:id="@+id/inputtext"
         style="@android:style/Widget.Button"
-        android:layout_width="152dp"
-        android:layout_height="47dp"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
         android:fontFamily="serif"
         android:text="@string/satzpaar_eingeben"
-        android:textSize="10sp"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.86" />
 
     <Button
         android:id="@+id/generatetext"
         style="@android:style/Widget.Button"
-        android:layout_width="139dp"
-        android:layout_height="46dp"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
         android:fontFamily="serif"
         android:text="@string/satzpaar_generieren"
-        android:textSize="10sp"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.86" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="271dp"
-        android:layout_height="252dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:contentDescription="@string/wallnuss"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,31 +74,33 @@
     <Button
         android:id="@+id/showlist"
         style="@android:style/Widget.Button"
-        android:layout_width="136dp"
-        android:layout_height="42dp"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
         android:fontFamily="serif"
         android:text="@string/satzpaare_anzeigen"
-        android:textSize="10sp"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.15"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.97" />
 
     <Button
         android:id="@+id/helppage"
         style="@android:style/Widget.Button"
-        android:layout_width="153dp"
-        android:layout_height="44dp"
+        android:layout_width="135dp"
+        android:layout_height="50dp"
         android:fontFamily="serif"
         android:text="@string/play_help_sound"
-        android:textSize="10sp"
+        android:textSize="12sp"
+        android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.91"
+        app:layout_constraintHorizontal_bias="0.85"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.97" />
 
 </android.support.constraint.ConstraintLayout>

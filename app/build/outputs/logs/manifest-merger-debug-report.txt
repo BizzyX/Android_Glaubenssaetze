@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-29:12
+ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e326d16f1b0c00e3c43815ae37036bf/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eae73f4b80bb8181a5cff318fa7cee00/AndroidManifest.xml:17:1-28:12
@@ -15,25 +15,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /Users/philpetschull
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/f23b788d486a51eeba23bdcd1ec39f49/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bda4719e45986a212f5b4e63e4bcb48c/AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd2688b0344c998b80632cd49dd117df/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-29:12
-INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-29:12
+INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:3:5-45
 		INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-29:12
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
 		INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:5:5-27:19
+ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:5:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e326d16f1b0c00e3c43815ae37036bf/AndroidManifest.xml:9:5-20
@@ -67,7 +67,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/philpetschull/.gradle/
 	android:allowBackup
 		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:11:9-47
 activity#fhbielefeld.glaubenssaetze_app.MainActivity
 ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:13:9-19:20
 	android:name
@@ -83,33 +83,33 @@ ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/
 	android:name
 		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:17:27-74
 activity#fhbielefeld.glaubenssaetze_app.Text_Generate_Activity
-ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:20:9-60
+ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:22:5-56
 	android:name
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:20:19-57
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:22:15-53
 activity#fhbielefeld.glaubenssaetze_app.Text_Generate_Activity_Answer
-ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:21:9-67
+ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:23:9-67
 	android:name
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:21:19-64
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:23:19-64
 activity#fhbielefeld.glaubenssaetze_app.Text_Output
-ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:22:9-49
+ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:24:9-49
 	android:name
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:22:19-46
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:24:19-46
 activity#fhbielefeld.glaubenssaetze_app.Sentence_List
-ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:23:9-51
+ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:25:9-51
 	android:name
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:23:19-48
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:25:19-48
 activity#fhbielefeld.glaubenssaetze_app.Help
-ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:24:9-51
+ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:26:9-51
 	android:name
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:24:19-39
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:26:19-39
 activity#fhbielefeld.glaubenssaetze_app.Text_Output_Positiv
-ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:25:9-66
+ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:27:9-66
 	android:name
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:25:19-54
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:27:19-54
 activity#fhbielefeld.glaubenssaetze_app.Sentence_List_Positiv
-ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:26:9-68
+ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:28:9-68
 	android:name
-		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:26:19-56
+		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:28:19-56
 uses-sdk
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml

@@ -909,7 +909,7 @@ int style AlertDialog_AppCompat_Light 0x7f0e0001
 int style Animation_AppCompat_Dialog 0x7f0e0002
 int style Animation_AppCompat_DropDownUp 0x7f0e0003
 int style Animation_AppCompat_Tooltip 0x7f0e0004
-int style AppTheme 0x7f0e0005
+int style AppCompat 0x7f0e0005
 int style Base_AlertDialog_AppCompat 0x7f0e0006
 int style Base_AlertDialog_AppCompat_Light 0x7f0e0007
 int style Base_Animation_AppCompat_Dialog 0x7f0e0008

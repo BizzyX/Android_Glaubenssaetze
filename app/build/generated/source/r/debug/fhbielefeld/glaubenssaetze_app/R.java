@@ -3005,7 +3005,7 @@ public final class R {
     public static final int Animation_AppCompat_Dialog=0x7f0e0002;
     public static final int Animation_AppCompat_DropDownUp=0x7f0e0003;
     public static final int Animation_AppCompat_Tooltip=0x7f0e0004;
-    public static final int AppTheme=0x7f0e0005;
+    public static final int AppCompat=0x7f0e0005;
     public static final int Base_AlertDialog_AppCompat=0x7f0e0006;
     public static final int Base_AlertDialog_AppCompat_Light=0x7f0e0007;
     public static final int Base_Animation_AppCompat_Dialog=0x7f0e0008;

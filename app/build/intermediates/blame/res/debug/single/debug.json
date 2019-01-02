@@ -212,12 +212,12 @@
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
-        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
-        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-xxhdpi-v4/abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
+        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/raw_fire.mp4.flat",
@@ -256,12 +256,12 @@
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
-        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
-    },
-    {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-hdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_menu_hardkey_panel_mtrl_mult.9.png.flat",
+        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat",
@@ -344,12 +344,12 @@
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-hdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
-        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
-    },
-    {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat",
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bda4719e45986a212f5b4e63e4bcb48c/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
+        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-hdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_015.png.flat",
@@ -436,12 +436,12 @@
         "source": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/res/layout/activity_sentencelist_positiv.xml"
     },
     {
-        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
-        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
-    },
-    {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxxhdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
+        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-ldrtl-xxxhdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
@@ -452,12 +452,12 @@
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-xhdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/raw_usefull_app.mp3.flat",
-        "source": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/res/raw/usefull_app.mp3"
-    },
-    {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat",
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/81e817de5d8a37ae4afafff4dfb1d889/res/layout/notification_media_action.xml"
+    },
+    {
+        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/raw_usefull_app.mp3.flat",
+        "source": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/res/raw/usefull_app.mp3"
     },
     {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/color-v23_abc_tint_edittext.xml.flat",
@@ -500,12 +500,12 @@
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-xhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
-        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_primary_mtrl_alpha.9.png.flat",
         "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
+        "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/drawable-xxhdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
         "merged": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",

@@ -33,7 +33,7 @@ public class Text_Generate_Activity extends AppCompatActivity {
 
         dataSource = new GlaubenssatzeMemoDataSource(this);
 
-        Button btn = (Button) findViewById(R.id.button3);
+        final Button btn = (Button) findViewById(R.id.button3);
         Button btn2 = (Button) findViewById(R.id.button);
 
         //Textview
@@ -86,8 +86,14 @@ public class Text_Generate_Activity extends AppCompatActivity {
             public void onClick(View v)
         {
 
+            Button button = (Button) v;
+            button.setVisibility(View.INVISIBLE);
+
             //Make the textview invisible
             randomText.setVisibility(View.INVISIBLE);
+
+            //Make the button invisible
+            btn.setVisibility(View.INVISIBLE);
 
             //Make the videoviewbox visible
             videoview.setVisibility(View.VISIBLE);

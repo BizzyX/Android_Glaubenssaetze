@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FFFFFF"
     tools:context="fhbielefeld.glaubenssaetze_app.Text_Output"
     tools:layout_editor_absoluteY="81dp">
 
