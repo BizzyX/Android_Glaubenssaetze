@@ -75,7 +75,8 @@ public class GlaubenssaetzeMemo {
         Public-Functions
     */
     public String toString() {
-        String output = id + " : " + sentence;
+        //String output = id + " : " + sentence;
+        String output = sentence;
         return output;
     }
 

@@ -22,4 +22,7 @@
     <string name="Weiter">Weiter</string>
     <string name="passendeglaubenssatze">Wie finde ich passende Glaubenssaetze?</string>
 
+    <string name ="Negative_Glaubenssaetze">Liste der negativen Glaubenssätze</string>
+    <string name ="Positive_Glaubenssaetze">Liste der dazugehörigen positven Glaubenssätze</string>
+
 </resources>

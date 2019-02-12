@@ -9,19 +9,42 @@
     tools:layout_editor_absoluteY="81dp">
 
     <ListView
-        android:id="@+id/sentencelist_positiv"
-        android:layout_width="393dp"
-        android:layout_height="621dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
+        android:id="@+id/sentencelist__positiv"
+        style="@android:style/Widget.DeviceDefault.Light.ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="468dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
-        android:minHeight="?android:attr/listPreferredItemHeight"
-        android:padding="15dp"
-        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:divider="@android:color/background_dark"
+        android:dividerHeight="4px"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="347dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/Positive_Glaubenssaetze"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
 </android.support.constraint.ConstraintLayout>

@@ -60,7 +60,7 @@ public class Sentence_List_Positiv extends AppCompatActivity {
                 glaubenssaetzeMemoList);
 
 
-        ListView sentenceList = (ListView) findViewById(R.id.sentencelist_positiv);
+        ListView sentenceList = (ListView) findViewById(R.id.sentencelist__positiv);
         sentenceList.setAdapter(glaubenssaetzeMemoArrayAdapter);
         dataSource.close();
 

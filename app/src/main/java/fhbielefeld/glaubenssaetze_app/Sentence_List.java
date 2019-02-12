@@ -11,6 +11,8 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import java.util.ArrayList;
 import java.util.List;
 import android.widget.Button;
 import android.util.SparseBooleanArray;
@@ -66,16 +68,18 @@ public class Sentence_List extends AppCompatActivity {
 
         //show all Entries in the list view on this page
         dataSource.open();
+        //TODO: modify showAllEntries()
         showAllEntries();
         initializeContextualActionBar();
 
+        //sentencelist shows all of the negtative sentences
+        //click on the negative sentence to get to the positive one
         sentenceList.setOnItemClickListener(new AdapterView.OnItemClickListener(){
         @Override
         public void onItemClick(AdapterView<?> adapterView,View view ,int i , long l){
             //Get the index of the clickable sentence
             int position = i;
             //Get Pairnumber of negative index
-            //we need the list
             List<GlaubenssaetzeMemo> glaubenssaetzeMemoList = dataSource.getAllGlaubenssaetzeMemos();
             GlaubenssaetzeMemo item = glaubenssaetzeMemoList.get(i);
             setCurrentPairNumber(item.getPairnumber());
@@ -101,9 +105,10 @@ public class Sentence_List extends AppCompatActivity {
 private void showAllEntries() {
 
         //all entries from the db were written into the List "glaubenssaetzeMemoList"
+
         List<GlaubenssaetzeMemo> glaubenssaetzeMemoList = dataSource.getAllGlaubenssaetzeMemos();
+
         ViewGroup.LayoutParams layoutParams;
-        //TODO: Dont show the ID
 
         //Change layout android.R.layout.simple_list_item_multiple_choice
         ArrayAdapter<GlaubenssaetzeMemo> glaubenssaetzeMemoArrayAdapter = new ArrayAdapter<GlaubenssaetzeMemo>(

@@ -79,6 +79,7 @@ public class Text_Output extends AppCompatActivity {
                     edittxt.setError(getString(R.string.editText_error_message));
                     return;
                 }
+
                 //EditText is set back to zero
                 edittxt.setText("");
                 Log.d(LOG_TAG, "Der Satz: " + sentence + " wurde der Datenbank hinzugefügt!");

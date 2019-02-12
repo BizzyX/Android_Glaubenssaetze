@@ -40,7 +40,7 @@ public class Text_Output_Positiv extends AppCompatActivity {
 
     private void activateSaveButton() {
         //Button to save the user input
-        Button savetxt = (Button) findViewById(R.id.buttonsave);
+        Button savetxt = (Button) findViewById(R.id.buttonsave2);
         //Button to save the user input
         final EditText edittxt = (EditText) findViewById(R.id.entertext);
 
