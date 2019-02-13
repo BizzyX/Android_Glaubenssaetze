@@ -30,8 +30,6 @@ import android.widget.EditText;
 // TODO : Sprachsamples einbauen
 // TODO : Videosequenz einbauen und abspielen lassen
 
-
-
 /*
 
     Mindeste API fuer diese APP = KITKAT

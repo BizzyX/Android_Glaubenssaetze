@@ -41,9 +41,51 @@ public class Text_Output_Positiv extends AppCompatActivity {
     private void activateSaveButton() {
         //Button to save the user input
         Button savetxt = (Button) findViewById(R.id.buttonsave2);
-        //Button to save the user input
+        //Buton to save and type in another sentence
+        Button anothertxt = (Button) findViewById(R.id.anothersentence);
+
+        //Type in a sentence
         final EditText edittxt = (EditText) findViewById(R.id.entertext);
 
+        //save the sentence from the edittxt and return to the input page to type in another sentence
+        anothertxt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public  void onClick(View v)
+            {
+                String sentence = edittxt.getText().toString();
+
+
+                //Shared Prefs Datei öffnen
+                SharedPreferences mySPR = getSharedPreferences("MySPFILE" , 0);
+
+                int count = mySPR.getInt("Counter", 100);
+
+
+                dataSource.createGlaubenssaetzeMemo(" p ", count , sentence);
+
+                //If the user input is empty
+                if (TextUtils.isEmpty(sentence)) {
+                    edittxt.setError(getString(R.string.editText_error_message));
+                    return;
+                }
+                //EditText is set back to zero
+                edittxt.setText("");
+                Log.d(LOG_TAG, "Der Satz: " + sentence + " wurde der Datenbank hinzugefügt!");
+                dataSource.getAllGlaubenssaetzeMemos();
+
+                InputMethodManager inputMethodManager;
+                inputMethodManager = (InputMethodManager) getSystemService(INPUT_METHOD_SERVICE);
+                if (getCurrentFocus() != null) {
+                    inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
+                }
+                Intent sentence_save = new Intent(Text_Output_Positiv.this,Text_Output_Positiv.class);
+                startActivity(sentence_save);
+
+            }
+
+        });
+
+        //save the sentence from the edittxt
         savetxt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,10 +117,13 @@ public class Text_Output_Positiv extends AppCompatActivity {
                     inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
                 }
 
+                //TODO: back to the positive page - pairnumber must be the same
                 Intent sentence_save = new Intent(Text_Output_Positiv.this,MainActivity.class);
                 startActivity(sentence_save);
+
             }
         });
+
 
     }
 
