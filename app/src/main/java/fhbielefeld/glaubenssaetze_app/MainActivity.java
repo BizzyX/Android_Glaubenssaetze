@@ -2,8 +2,11 @@ package fhbielefeld.glaubenssaetze_app;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.MenuItem;
 import android.view.View;
 import android.content.SharedPreferences;
 import android.widget.Button;
@@ -20,6 +23,7 @@ import android.widget.EditText;
 
 
 
+
 /*
     GlaubenssaetzeDbHelper – Hilfsklasse.Eigenschaften der Datenbank und Tabelle definiert und die Tabelle mit einem SQL-Kommando erstellt.
     GlaubensatzeDataSource – Datenquelle - hält die Verbindung zur Datenbank aufrecht. Hier haben wir eine Referenz zu dem Datenbankobjekt angefragt und damit den Erstellungsprozess der Tabelle gestartet.
@@ -27,8 +31,8 @@ import android.widget.EditText;
  */
 
 // TODO : AUFRÄUMEN!
-// TODO : Sprachsamples einbauen
-// TODO : Videosequenz einbauen und abspielen lassen
+
+
 
 /*
 
@@ -54,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
     private GlaubenssaetzeMemoDbHelper dbHelper;
 
 
+    //Navigation Bar Variables
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
+
 
 
 
@@ -67,9 +75,31 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Neues Objekt erzeugt
-        dataSource = new GlaubenssatzeMemoDataSource(this);
 
+
+
+
+
+        //------------- NavigationBar ---------------------
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout,R.string.open,R.string.close);
+
+        mDrawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        //------------- NavigationBar ---------------------
+
+
+
+
+
+
+
+
+        //------------- Neues Objekt anlegen --------------
+        dataSource = new GlaubenssatzeMemoDataSource(this);
 
         //Datenbank wird geoeffnet
         Log.d(LOG_TAG, "Die Datenquelle wird geöffnet.");
@@ -86,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         //List is converted into a string to show it in a log message
         String dbentries = glaubenssaetzeMemoList.toString();
         Log.d(LOG_TAG,dbentries);
-
+        //------------- Neues Objekt anlegen --------------
 
 
         //init function to initialize all buttons!
@@ -95,6 +125,18 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+    //------------- NavigationBar ---------------------
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        if (mToggle.onOptionsItemSelected(item))
+        {
+            return true;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+    //------------- NavigationBar ---------------------
 
     private void showAllEntries() {
 

@@ -68,7 +68,6 @@ public class Sentence_List extends AppCompatActivity {
 
         //show all Entries in the list view on this page
         dataSource.open();
-        //TODO: modify showAllEntries()
         showAllEntries();
         initializeContextualActionBar();
 

@@ -117,7 +117,7 @@ public class Text_Output_Positiv extends AppCompatActivity {
                     inputMethodManager.hideSoftInputFromWindow(getCurrentFocus().getWindowToken(), 0);
                 }
 
-                //TODO: back to the positive page - pairnumber must be the same
+
                 Intent sentence_save = new Intent(Text_Output_Positiv.this,MainActivity.class);
                 startActivity(sentence_save);
 

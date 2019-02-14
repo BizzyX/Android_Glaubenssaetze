@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Glaubenssaetze</string>
+    <string name="app_name">Glaubenssätze</string>
     <string name="editText_error_message">Keine gültige Eingabe</string>
     <string name="cab_delete">Einträge löschen</string>
     <string name="cab_change">Einträge bearbeiten</string>
@@ -13,10 +13,12 @@
     <string name="usefull_app">Was bringt es Ihnen diese App zu benutzen?</string>
     <string name="find_sentences">So finden Sie Ihre Glaubenssaetze</string>
     <string name="stop_sound">Stop</string>
+
     <string name="satzpaar_eingeben">Satzpaar eingeben</string>
     <string name="glaubenssaetze">Glaubenssaetze</string>
     <string name="satzpaar_generieren">Satzpaar generieren</string>
     <string name="satzpaare_anzeigen">Satzpaare anzeigen</string>
+
     <string name="wallnuss">wallnuss</string>
     <string name="Menu">Menü</string>
     <string name="Weiter">Weiter</string>
@@ -25,4 +27,9 @@
     <string name ="Negative_Glaubenssaetze">Liste der negativen Glaubenssätze</string>
     <string name ="Positive_Glaubenssaetze">Liste der dazugehörigen positven Glaubenssätze</string>
 
+
+    <string name ="Anleitungen">Hilfe und Anleitungen</string>
+
+    <string name ="close">Close</string>
+    <string name ="open">Open</string>
 </resources>

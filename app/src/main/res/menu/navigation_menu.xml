@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_input"
+        android:title="@string/satzpaar_eingeben">
+
+    </item>
+
+    <item android:id="@+id/menu_generate"
+        android:title="@string/satzpaar_generieren">
+
+    </item>
+
+    <item android:id="@+id/menu_list"
+        android:title="@string/satzpaare_anzeigen">
+
+    </item>
+
+    <item android:id="@+id/menu_help"
+        android:title="@string/Anleitungen">
+
+    </item>
+
+</menu>

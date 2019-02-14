@@ -4,10 +4,14 @@ ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:1-31:12
+MERGED from [com.android.support:design:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d05660e4e01eeced65e2e336b604f34b/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e326d16f1b0c00e3c43815ae37036bf/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-v13:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b2a4daa2ebdc9958bb009cf2580a22b7/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eae73f4b80bb8181a5cff318fa7cee00/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/047f934d298210a644669584c9c5055c/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/510eaba3e6b1447ece33fc3d73ef2dac/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6c0f6b9d9155ad9956083e6fe971031b/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-v4:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea44b4b3f2460aad96ddb7269b2512e8/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/81e817de5d8a37ae4afafff4dfb1d889/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/5bfa43c17d64f047803b2cb743dd9e64/AndroidManifest.xml:17:1-31:12
@@ -34,14 +38,22 @@ INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/s
 		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:2:11-69
 application
 ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml:5:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d05660e4e01eeced65e2e336b604f34b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d05660e4e01eeced65e2e336b604f34b/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e326d16f1b0c00e3c43815ae37036bf/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e326d16f1b0c00e3c43815ae37036bf/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-v13:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b2a4daa2ebdc9958bb009cf2580a22b7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v13:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b2a4daa2ebdc9958bb009cf2580a22b7/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eae73f4b80bb8181a5cff318fa7cee00/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eae73f4b80bb8181a5cff318fa7cee00/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/047f934d298210a644669584c9c5055c/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/047f934d298210a644669584c9c5055c/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/510eaba3e6b1447ece33fc3d73ef2dac/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/510eaba3e6b1447ece33fc3d73ef2dac/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6c0f6b9d9155ad9956083e6fe971031b/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6c0f6b9d9155ad9956083e6fe971031b/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea44b4b3f2460aad96ddb7269b2512e8/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-v4:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea44b4b3f2460aad96ddb7269b2512e8/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/81e817de5d8a37ae4afafff4dfb1d889/AndroidManifest.xml:25:5-29:19
@@ -114,14 +126,22 @@ uses-sdk
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d05660e4e01eeced65e2e336b604f34b/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d05660e4e01eeced65e2e336b604f34b/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e326d16f1b0c00e3c43815ae37036bf/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/6e326d16f1b0c00e3c43815ae37036bf/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-v13:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b2a4daa2ebdc9958bb009cf2580a22b7/AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:support-v13:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b2a4daa2ebdc9958bb009cf2580a22b7/AndroidManifest.xml:21:5-23:55
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eae73f4b80bb8181a5cff318fa7cee00/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eae73f4b80bb8181a5cff318fa7cee00/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/047f934d298210a644669584c9c5055c/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/047f934d298210a644669584c9c5055c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/510eaba3e6b1447ece33fc3d73ef2dac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/510eaba3e6b1447ece33fc3d73ef2dac/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6c0f6b9d9155ad9956083e6fe971031b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6c0f6b9d9155ad9956083e6fe971031b/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea44b4b3f2460aad96ddb7269b2512e8/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea44b4b3f2460aad96ddb7269b2512e8/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/81e817de5d8a37ae4afafff4dfb1d889/AndroidManifest.xml:21:5-23:63
@@ -139,7 +159,7 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/philpetschull/.gradle/
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d05660e4e01eeced65e2e336b604f34b/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
@@ -149,11 +169,19 @@ INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/s
 		ADDED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d05660e4e01eeced65e2e336b604f34b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b2a4daa2ebdc9958bb009cf2580a22b7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v13:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v13-26.1.0.aar/b2a4daa2ebdc9958bb009cf2580a22b7/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eae73f4b80bb8181a5cff318fa7cee00/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/eae73f4b80bb8181a5cff318fa7cee00/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/047f934d298210a644669584c9c5055c/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/047f934d298210a644669584c9c5055c/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/510eaba3e6b1447ece33fc3d73ef2dac/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/510eaba3e6b1447ece33fc3d73ef2dac/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6c0f6b9d9155ad9956083e6fe971031b/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/6c0f6b9d9155ad9956083e6fe971031b/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea44b4b3f2460aad96ddb7269b2512e8/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/ea44b4b3f2460aad96ddb7269b2512e8/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/81e817de5d8a37ae4afafff4dfb1d889/AndroidManifest.xml:26:9-28:38
@@ -167,9 +195,9 @@ MERGED from [com.android.support:support-core-ui:26.1.0] /Users/philpetschull/.g
 MERGED from [com.android.support:support-compat:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bda4719e45986a212f5b4e63e4bcb48c/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-compat:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/bda4719e45986a212f5b4e63e4bcb48c/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d05660e4e01eeced65e2e336b604f34b/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/d05660e4e01eeced65e2e336b604f34b/AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
 ADDED from [android.arch.lifecycle:runtime:1.0.0] /Users/philpetschull/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/bd2688b0344c998b80632cd49dd117df/AndroidManifest.xml:25:9-27:47
 	android:value
