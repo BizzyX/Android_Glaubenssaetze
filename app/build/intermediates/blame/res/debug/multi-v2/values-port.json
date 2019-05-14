@@ -1,10 +1,25 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "outputFile": "C:\\Users\\philpetschull\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
             "map": [
                 {
-                    "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/values-port/values-port.xml",
+                    "source": "C:\\Users\\philpetschull\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\751adf90e0c24d0a1bbec1dc5dae1fa8\\res\\values-port\\values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-port\\values-port.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\values-port\\values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

@@ -4,6 +4,8 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.media.MediaPlayer;
+import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -29,9 +31,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-
-
+import android.widget.VideoView;
 
 
 public class Sentence_List extends AppCompatActivity {
@@ -63,6 +63,17 @@ public class Sentence_List extends AppCompatActivity {
         setContentView(R.layout.activity_sentencelist);
         final ListView sentenceList = (ListView) findViewById(R.id.sentencelist);
 
+        //Videosequenz
+        //which Videoview is used?
+        final VideoView videoview = (VideoView) findViewById(R.id.playvideosentencelist);
+
+        //Which video should be played out of the raw folder?
+        Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.explode);
+        videoview.setVideoURI(uri);
+
+        //Make the videoview box invisible
+        videoview.setVisibility(View.INVISIBLE);
+
 
         dataSource = new GlaubenssatzeMemoDataSource(this);
 
@@ -82,16 +93,34 @@ public class Sentence_List extends AppCompatActivity {
             List<GlaubenssaetzeMemo> glaubenssaetzeMemoList = dataSource.getAllGlaubenssaetzeMemos();
             GlaubenssaetzeMemo item = glaubenssaetzeMemoList.get(i);
             setCurrentPairNumber(item.getPairnumber());
-            long Pairnumber = item.getPairnumber();
+            final long Pairnumber = item.getPairnumber();
             //Give the pairnumber over the the next activty
 
 
-            Intent intent = new Intent(Sentence_List.this , Sentence_List_Positiv.class);
+            //TODO: Hier sollte das Video abgespielt werden
+
+            //Make the videoviewbox visible
+            videoview.setVisibility(View.VISIBLE);
+
+            sentenceList.setVisibility(View.INVISIBLE);
 
 
-            //Show the positive sentences there
-            intent.putExtra(" Pairnumber " , Pairnumber);
-            startActivity(intent);
+            //Video wird abgespielt
+            videoview.start();
+
+
+
+            //go to the next activity when the video is finished
+            videoview.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                @Override
+                public void onCompletion(MediaPlayer mp) {
+                    Intent intent = new Intent(Sentence_List.this , Sentence_List_Positiv.class);
+                    //Show the positive sentences there
+                    intent.putExtra(" Pairnumber " , Pairnumber);
+                    startActivity(intent);
+                }
+            });
+
         }
 
     });

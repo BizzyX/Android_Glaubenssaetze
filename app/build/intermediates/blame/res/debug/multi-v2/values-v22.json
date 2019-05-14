@@ -1,10 +1,26 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/philpetschull/Documents/GitHub/Android_Glaubenssaetze/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "outputFile": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
             "map": [
                 {
-                    "source": "/Users/philpetschull/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/751adf90e0c24d0a1bbec1dc5dae1fa8/res/values-v22/values-v22.xml",
+                    "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\values-v22\\values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\philpetschull\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v22\\values-v22.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\philpetschull\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\751adf90e0c24d0a1bbec1dc5dae1fa8\\res\\values-v22\\values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",
