@@ -62,6 +62,7 @@ public class Text_Output extends AppCompatActivity {
         //Variable für den eingegebenen Satz
         final EditText edittxt = (EditText) findViewById(R.id.entertext);
         //Variable für die Überschrift
+        final TextView headline = (TextView) findViewById(R.id.textView3);
 
 
         //--- VideoView - Nuss ---
@@ -87,6 +88,7 @@ public class Text_Output extends AppCompatActivity {
 
                 savetxt.setVisibility(View.INVISIBLE);
                 edittxt.setVisibility(View.INVISIBLE);
+                headline.setVisibility(View.INVISIBLE);
 
 
                 //Shared Prefs Datei öffnen

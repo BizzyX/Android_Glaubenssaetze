@@ -96,9 +96,6 @@ public class Sentence_List extends AppCompatActivity {
             final long Pairnumber = item.getPairnumber();
             //Give the pairnumber over the the next activty
 
-
-            //TODO: Hier sollte das Video abgespielt werden
-
             //Make the videoviewbox visible
             videoview.setVisibility(View.VISIBLE);
 

@@ -25,7 +25,8 @@
         <activity android:name=".Sentence_List" />
         <activity android:name=".Help"></activity>
         <activity android:name=".Text_Output_Positiv"></activity>
-        <activity android:name=".Sentence_List_Positiv"></activity>
+        <activity android:name=".Sentence_List_Positiv">
+        </activity>
     </application>
 
 </manifest>

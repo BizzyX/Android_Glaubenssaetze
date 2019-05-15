@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-32:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Phil\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4b6ac27e59e25057524b3f4218e17c4\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\aa13ef361aa5d958fcc5f027a9e12254\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Phil\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\e171ae8c715f22a6eaa671e004db6be1\AndroidManifest.xml:2:1-11:12
@@ -19,25 +19,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Phil\.gradl
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Phil\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\beac202c50ac0b4a926034a2e2ea36c6\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Phil\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\a22690255ae9dba1d5761951b6a632cc\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Phil\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\bc816e14796201dfad30d24c7318c6a7\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-32:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:3:5-45
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-32:12
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:5:5-29:19
+ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:5:5-30:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Phil\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4b6ac27e59e25057524b3f4218e17c4\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Phil\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\a4b6ac27e59e25057524b3f4218e17c4\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Phil\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\aa13ef361aa5d958fcc5f027a9e12254\AndroidManifest.xml:25:5-29:19
@@ -119,7 +119,7 @@ ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\An
 	android:name
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:27:19-54
 activity#fhbielefeld.glaubenssaetze_app.Sentence_List_Positiv
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:28:9-68
+ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:28:9-29:20
 	android:name
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:28:19-56
 uses-sdk

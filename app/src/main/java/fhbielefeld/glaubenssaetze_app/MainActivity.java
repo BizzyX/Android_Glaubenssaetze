@@ -6,6 +6,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.content.SharedPreferences;
@@ -31,6 +32,8 @@ import android.widget.EditText;
  */
 
 // TODO : AUFRÄUMEN!
+// TODO : Icons auf die Buttons -> Buttons schöner machen
+// TODO : Weiteren Seiten aufräumen und schöner gestalten
 
 
 
@@ -126,17 +129,67 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     //------------- NavigationBar ---------------------
+   @Override
+   public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.navigation_menu, menu);
+        return true;
+   }
+
+   //TODO: Navigation Bar Click Events https://www.youtube.com/watch?v=a0sHRM54njg
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
+        //Welcher Menüeintrag wurde geklickt
+        int id = item.getItemId();
+
+
         if (mToggle.onOptionsItemSelected(item))
         {
+
             return true;
         }
+
+        //Menüeintrag zum generieren
+        if (id == R.id.menu_generate)
+        {
+            Intent generate = new Intent(MainActivity.this, Text_Generate_Activity.class);
+            startActivity(generate);
+            return false;
+        }
+
+        //Menüeintrag zum eingeben
+        if (id == R.id.menu_input)
+        {
+            Intent input = new Intent(MainActivity.this, Text_Output.class);
+            startActivity(input);
+            return false;
+        }
+
+        //Menüeintrag zur Satzliste
+        if (id == R.id.menu_list)
+        {
+            Intent list = new Intent(MainActivity.this, Sentence_List.class);
+            startActivity(list);
+            return false;
+        }
+
+        //Menüeintrag zur Hilfeseite
+        if (id == R.id.helppage)
+        {
+            Intent help = new Intent(MainActivity.this, Help.class);
+            startActivity(help);
+            return false;
+        }
+
+
+
+
         return super.onOptionsItemSelected(item);
     }
     //------------- NavigationBar ---------------------
+
 
     private void showAllEntries() {
 

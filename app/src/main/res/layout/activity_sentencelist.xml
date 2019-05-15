@@ -5,11 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFFFF"
-    android:padding="20dp"
     tools:layout_editor_absoluteY="81dp"
     tools:context="fhbielefeld.glaubenssaetze_app.Sentence_List"
-
     >
+
+
+    <VideoView
+        android:id="@+id/playvideosentencelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView7"
@@ -30,25 +40,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <VideoView
-        android:id="@+id/playvideosentencelist"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"  />
+
 
     <ListView
         android:id="@+id/sentencelist"
         style="@android:style/Widget.DeviceDefault.Light.ListView"
-        android:layout_width="302dp"
-        android:layout_height="356dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="80dp"
         android:divider="@android:color/background_dark"
         android:dividerHeight="4px"
         android:footerDividersEnabled="true"
@@ -61,5 +63,7 @@
         app:layout_constraintVertical_bias="0.68">
 
     </ListView>
+
+
 
 </android.support.constraint.ConstraintLayout>

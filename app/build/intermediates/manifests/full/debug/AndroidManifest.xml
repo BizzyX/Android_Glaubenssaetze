@@ -31,7 +31,8 @@
         <activity android:name="fhbielefeld.glaubenssaetze_app.Sentence_List" />
         <activity android:name="fhbielefeld.glaubenssaetze_app.Help" />
         <activity android:name="fhbielefeld.glaubenssaetze_app.Text_Output_Positiv" />
-        <activity android:name="fhbielefeld.glaubenssaetze_app.Sentence_List_Positiv" />
+        <activity android:name="fhbielefeld.glaubenssaetze_app.Sentence_List_Positiv" >
+        </activity>
 
         <meta-data
             android:name="android.support.VERSION"
