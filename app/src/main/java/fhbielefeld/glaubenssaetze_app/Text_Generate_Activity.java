@@ -108,7 +108,7 @@ public class Text_Generate_Activity extends AppCompatActivity {
               public void onCompletion(MediaPlayer mp) {
 
                   long Pairnumber = getCurrentPairNumber();
-                  Intent positive_sentence = new Intent(Text_Generate_Activity.this,Text_Generate_Activity_Answer.class);
+                  Intent positive_sentence = new Intent(Text_Generate_Activity.this,Sentence_List_Positiv.class);
                   positive_sentence.putExtra(" Pairnumber " , Pairnumber);
                   startActivity(positive_sentence);
               }

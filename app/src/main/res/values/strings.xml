@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Glaubenssätze</string>
     <string name="app_name_description">- Der Unterstützer für unterwegs -</string>
+    <string name="generate_negative">Ein Zufälliger negativer Glaubenssatz</string>
     <string name="editText_error_message">Keine gültige Eingabe</string>
     <string name="cab_delete">Einträge löschen</string>
     <string name="cab_change">Einträge bearbeiten</string>
@@ -20,13 +21,16 @@
     <string name="satzpaar_generieren">Satzpaar generieren</string>
     <string name="satzpaare_anzeigen">Satzpaare anzeigen</string>
 
+    <string name="ButtonErzeugen">Zufällig generieren</string>
+    <string name="Buttonloesen">Den Glaubenssatz auflösen</string>
+
     <string name="wallnuss">wallnuss</string>
     <string name="Menu">Menü</string>
     <string name="Weiter">Weiter</string>
     <string name="passendeglaubenssatze">Wie finde ich passende Glaubenssaetze?</string>
 
     <string name ="Negative_Glaubenssaetze">Liste der negativen Glaubenssätze</string>
-    <string name ="Positive_Glaubenssaetze">Liste der dazugehörigen positven Glaubenssätze</string>
+    <string name ="Positive_Glaubenssaetze">Mit diesen Sätzen können Sie ihren Glaubenssatz lösen</string>
 
 
     <string name ="Anleitungen">Hilfe und Anleitungen</string>
