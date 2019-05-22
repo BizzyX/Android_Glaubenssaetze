@@ -2,6 +2,7 @@ package fhbielefeld.glaubenssaetze_app;
 
 
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.RequiresApi;
@@ -17,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
@@ -47,7 +49,7 @@ public class Sentence_List_Positiv extends AppCompatActivity {
         setContentView(R.layout.activity_sentencelist_positiv);
         TextView matchingTextPositiv = (TextView) findViewById(R.id.randomText);
         dataSource = new GlaubenssatzeMemoDataSource(this);
-
+        final Button menu       = (Button) findViewById(R.id.backtomenu);
 
         Bundle extras = getIntent().getExtras();
         long Pairnumber = 1;
@@ -60,6 +62,14 @@ public class Sentence_List_Positiv extends AppCompatActivity {
         Log.d(LOG_TAG, "Die erhaltene Paarnummer ist: " +  Pairnumber);
         showAllPositiveEntries(Pairnumber);
         dataSource.close();
+
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Sentence_List_Positiv.this, MainActivity.class);
+                startActivity(intent);
+            }
+        });
 
         initializeContextualActionBar();
 

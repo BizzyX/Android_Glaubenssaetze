@@ -31,6 +31,7 @@ import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.VideoView;
 
 
@@ -62,6 +63,7 @@ public class Sentence_List extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sentencelist);
         final ListView sentenceList = (ListView) findViewById(R.id.sentencelist);
+        final TextView header = (TextView) findViewById(R.id.negativelistheader);
 
         //Videosequenz
         //which Videoview is used?
@@ -100,6 +102,9 @@ public class Sentence_List extends AppCompatActivity {
             videoview.setVisibility(View.VISIBLE);
 
             sentenceList.setVisibility(View.INVISIBLE);
+
+            header.setVisibility(View.INVISIBLE);
+
 
 
             //Video wird abgespielt

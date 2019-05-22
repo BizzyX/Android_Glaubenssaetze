@@ -86,6 +86,12 @@ public class Text_Output extends AppCompatActivity {
                 //Eingetippte Satz wird in einer String Variablen gespeichert
                 String sentence = edittxt.getText().toString();
 
+                //Wenn die Eingabe leer ist wird eine Fehlermeldung angezeigt
+                if (TextUtils.isEmpty(sentence)) {
+                    edittxt.setError(getString(R.string.editText_error_message));
+                    return;
+                }
+
                 savetxt.setVisibility(View.INVISIBLE);
                 edittxt.setVisibility(View.INVISIBLE);
                 headline.setVisibility(View.INVISIBLE);
@@ -102,11 +108,7 @@ public class Text_Output extends AppCompatActivity {
 
                 mySPR.edit().putInt("Counter" , count+1).commit();
 
-                //Wenn die Eingabe leer ist wird eine Fehlermeldung angezeigt
-                if (TextUtils.isEmpty(sentence)) {
-                    edittxt.setError(getString(R.string.editText_error_message));
-                    return;
-                }
+
 
                 //Der eingegebene Text wird zurück auf null gesetzt
                 edittxt.setText("");

@@ -5,13 +5,22 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.media.MediaPlayer;
 import android.net.Uri;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.util.Log;
 import android.widget.VideoView;
+
+import org.w3c.dom.Text;
+
 import java.util.List;
 import java.util.Random;
 
@@ -25,6 +34,9 @@ public class Text_Generate_Activity extends AppCompatActivity {
 
     //Pairnumber
     private long currentPairNumber;
+
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -52,6 +64,7 @@ public class Text_Generate_Activity extends AppCompatActivity {
 
 
 
+
         btn.setOnClickListener(new View.OnClickListener() {
             @SuppressLint("SetTextI18n")
             @Override
@@ -60,6 +73,7 @@ public class Text_Generate_Activity extends AppCompatActivity {
                 //Make the videoview box invisible
                 videoview.setVisibility(View.INVISIBLE);
 
+                randomText.setError(null);
 
                 //generate a sentece out of the database
                 Random randomGenerator = new Random();
@@ -86,33 +100,47 @@ public class Text_Generate_Activity extends AppCompatActivity {
             public void onClick(View v)
         {
 
-            Button button = (Button) v;
-            button.setVisibility(View.INVISIBLE);
+            if(!randomText.getText().toString().matches(""))
+            {
 
-            //Make the textview invisible
-            randomText.setVisibility(View.INVISIBLE);
+                Button button = (Button) v;
+                button.setVisibility(View.INVISIBLE);
 
-            //Make the button invisible
-            btn.setVisibility(View.INVISIBLE);
+                //Make the textview invisible
+                randomText.setVisibility(View.INVISIBLE);
 
-            //Make the videoviewbox visible
-            videoview.setVisibility(View.VISIBLE);
+                //Make the button invisible
+                btn.setVisibility(View.INVISIBLE);
 
-            //start the video
-            videoview.start();
+                //Make the videoviewbox visible
+                videoview.setVisibility(View.VISIBLE);
+
+                //start the video
+                videoview.start();
 
 
-            //go to the next activity when the video is finished
-            videoview.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-              @Override
-              public void onCompletion(MediaPlayer mp) {
+                //go to the next activity when the video is finished
+                videoview.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                    @Override
+                    public void onCompletion(MediaPlayer mp) {
 
-                  long Pairnumber = getCurrentPairNumber();
-                  Intent positive_sentence = new Intent(Text_Generate_Activity.this,Sentence_List_Positiv.class);
-                  positive_sentence.putExtra(" Pairnumber " , Pairnumber);
-                  startActivity(positive_sentence);
-              }
-          });
+                        long Pairnumber = getCurrentPairNumber();
+                        Intent positive_sentence = new Intent(Text_Generate_Activity.this,Sentence_List_Positiv.class);
+                        positive_sentence.putExtra(" Pairnumber " , Pairnumber);
+                        startActivity(positive_sentence);
+                    }
+                });
+
+            }
+            else
+            {
+
+                randomText.setError(getString(R.string.sentence_generate_error));
+                return;
+            }
+
+
+
         }
         });
 

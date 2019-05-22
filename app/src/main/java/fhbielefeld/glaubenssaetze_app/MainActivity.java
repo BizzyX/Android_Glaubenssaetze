@@ -2,6 +2,8 @@ package fhbielefeld.glaubenssaetze_app;
 
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -34,6 +36,7 @@ import android.widget.EditText;
 // TODO : AUFRÄUMEN!
 // TODO : Icons auf die Buttons -> Buttons schöner machen
 // TODO : Weiteren Seiten aufräumen und schöner gestalten
+// TODO:  Credit Nut Icon Source:Cartoon Nut Clip Art from ca.clipartlogo.com (by lemmling)
 
 
 
@@ -92,6 +95,48 @@ public class MainActivity extends AppCompatActivity {
 
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
+        final NavigationView nav_view = (NavigationView)findViewById(R.id.nav_menu);
+
+        nav_view.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                //Menüeintrag zum generieren
+                if (id == R.id.menu_generate)
+                {
+                    Intent generate = new Intent(MainActivity.this, Text_Generate_Activity.class);
+                    startActivity(generate);
+                    return false;
+                }
+
+                //Menüeintrag zum eingeben
+                if (id == R.id.menu_input)
+                {
+                    Intent input = new Intent(MainActivity.this, Text_Output.class);
+                    startActivity(input);
+                    return false;
+                }
+
+                //Menüeintrag zur Satzliste
+                if (id == R.id.menu_list)
+                {
+                    Intent list = new Intent(MainActivity.this, Sentence_List.class);
+                    startActivity(list);
+                    return false;
+                }
+
+                //Menüeintrag zur Hilfeseite
+                if (id == R.id.helppage)
+                {
+                    Intent help = new Intent(MainActivity.this, Help.class);
+                    startActivity(help);
+                    return false;
+                }
+
+                return false;
+            }
+        });
+
         //------------- NavigationBar ---------------------
 
 
@@ -137,7 +182,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
    }
 
-   //TODO: Navigation Bar Click Events https://www.youtube.com/watch?v=a0sHRM54njg
+
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
@@ -150,40 +195,6 @@ public class MainActivity extends AppCompatActivity {
 
             return true;
         }
-
-        //Menüeintrag zum generieren
-        if (id == R.id.menu_generate)
-        {
-            Intent generate = new Intent(MainActivity.this, Text_Generate_Activity.class);
-            startActivity(generate);
-            return false;
-        }
-
-        //Menüeintrag zum eingeben
-        if (id == R.id.menu_input)
-        {
-            Intent input = new Intent(MainActivity.this, Text_Output.class);
-            startActivity(input);
-            return false;
-        }
-
-        //Menüeintrag zur Satzliste
-        if (id == R.id.menu_list)
-        {
-            Intent list = new Intent(MainActivity.this, Sentence_List.class);
-            startActivity(list);
-            return false;
-        }
-
-        //Menüeintrag zur Hilfeseite
-        if (id == R.id.helppage)
-        {
-            Intent help = new Intent(MainActivity.this, Help.class);
-            startActivity(help);
-            return false;
-        }
-
-
 
 
         return super.onOptionsItemSelected(item);

@@ -22,13 +22,14 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView7"
-        android:layout_width="347dp"
-        android:layout_height="54dp"
+        android:id="@+id/negativelistheader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
+        android:fontFamily="casual"
         android:text="@string/Negative_Glaubenssaetze"
         android:textAlignment="center"
         android:textColor="@android:color/black"

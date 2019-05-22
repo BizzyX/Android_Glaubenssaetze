@@ -3,6 +3,7 @@
     <string name="app_name_description">- Der Unterstützer für unterwegs -</string>
     <string name="generate_negative">Ein Zufälliger negativer Glaubenssatz</string>
     <string name="editText_error_message">Keine gültige Eingabe</string>
+    <string name="sentence_generate_error">Zuerst muss ein zufälliger Satz generiert werden</string>
     <string name="cab_delete">Einträge löschen</string>
     <string name="cab_change">Einträge bearbeiten</string>
     <string name="cab_checked_string">ausgewählt</string>
@@ -23,6 +24,8 @@
 
     <string name="ButtonErzeugen">Zufällig generieren</string>
     <string name="Buttonloesen">Den Glaubenssatz auflösen</string>
+    <string name="Buttonspeichern">Speichern</string>
+    <string name="Buttonweiterersatz">Weiteren Satz eingeben</string>
 
     <string name="wallnuss">wallnuss</string>
     <string name="Menu">Menü</string>
@@ -32,6 +35,7 @@
     <string name ="Negative_Glaubenssaetze">Liste der negativen Glaubenssätze</string>
     <string name ="Positive_Glaubenssaetze">Mit diesen Sätzen können Sie ihren Glaubenssatz lösen</string>
 
+    <string name ="Negativer_Glaubenssatz">Welchen negativen Glaubenssatz möchten sie knacken?</string>
 
     <string name ="Anleitungen">Hilfe und Anleitungen</string>
 
