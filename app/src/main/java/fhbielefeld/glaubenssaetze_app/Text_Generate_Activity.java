@@ -35,6 +35,9 @@ public class Text_Generate_Activity extends AppCompatActivity {
     //Pairnumber
     private long currentPairNumber;
 
+    //Navigation Bar Variables
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
 
 
 
@@ -47,6 +50,22 @@ public class Text_Generate_Activity extends AppCompatActivity {
 
         final Button btn = (Button) findViewById(R.id.button3);
         Button btn2 = (Button) findViewById(R.id.button);
+
+
+
+
+
+        //------------- NavigationBar ---------------------
+        final NavigationView nav_view_generate = (NavigationView)findViewById(R.id.nav_menu_generate);
+
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout,R.string.open,R.string.close);
+
+        mDrawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
 
         //Textview
         final TextView randomText = (TextView) findViewById(R.id.randomText);
@@ -62,6 +81,48 @@ public class Text_Generate_Activity extends AppCompatActivity {
         //Make the videoview box invisible
         videoview.setVisibility(View.INVISIBLE);
 
+
+        nav_view_generate.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                //Menüeintrag zum generieren
+                if (id == R.id.menu)
+                {
+                    Intent generate = new Intent(Text_Generate_Activity.this, MainActivity.class);
+                    startActivity(generate);
+                    return false;
+                }
+
+                //Menüeintrag zum eingeben
+                if (id == R.id.menu_input)
+                {
+                    Intent input = new Intent(Text_Generate_Activity.this, Text_Output.class);
+                    startActivity(input);
+                    return false;
+                }
+
+                //Menüeintrag zur Satzliste
+                if (id == R.id.menu_list)
+                {
+                    Intent list = new Intent(Text_Generate_Activity.this, Sentence_List.class);
+                    startActivity(list);
+                    return false;
+                }
+
+                //Menüeintrag zur Hilfeseite
+                if (id == R.id.menu_help)
+                {
+                    Intent help = new Intent(Text_Generate_Activity.this, Help.class);
+                    startActivity(help);
+                    return false;
+                }
+                return false;
+            }
+        });
+
+
+        //------------- NavigationBar ---------------------
 
 
 
@@ -154,4 +215,30 @@ public class Text_Generate_Activity extends AppCompatActivity {
     public void setCurrentPairNumber(long currentPairNumber) {
         this.currentPairNumber = currentPairNumber;
     }
+
+    //------------- NavigationBar ---------------------
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.navigation_menu_generate, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        //Welcher Menüeintrag wurde geklickt
+        int id = item.getItemId();
+
+
+        if (mToggle.onOptionsItemSelected(item))
+        {
+
+            return true;
+        }
+
+
+        return super.onOptionsItemSelected(item);
+    }
+    //------------- NavigationBar ---------------------
 }

@@ -37,6 +37,7 @@ import android.widget.EditText;
 // TODO : Icons auf die Buttons -> Buttons schöner machen
 // TODO : Weiteren Seiten aufräumen und schöner gestalten
 // TODO:  Credit Nut Icon Source:Cartoon Nut Clip Art from ca.clipartlogo.com (by lemmling)
+// TODO:  Gleiche Groeße für alle Bildschirmgrößen - https://www.youtube.com/watch?v=Fexqyr1MBbo
 
 
 
@@ -126,7 +127,7 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 //Menüeintrag zur Hilfeseite
-                if (id == R.id.helppage)
+                if (id == R.id.menu_help)
                 {
                     Intent help = new Intent(MainActivity.this, Help.class);
                     startActivity(help);

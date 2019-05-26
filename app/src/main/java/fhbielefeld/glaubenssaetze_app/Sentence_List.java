@@ -6,6 +6,10 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.media.MediaPlayer;
 import android.net.Uri;
+import android.support.annotation.NonNull;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -51,6 +55,10 @@ public class Sentence_List extends AppCompatActivity {
 
     public ListView listView;
 
+    //Navigation Bar Variables
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
+
 
     //Pairnumber
     private long currentPairNumber;
@@ -65,6 +73,18 @@ public class Sentence_List extends AppCompatActivity {
         final ListView sentenceList = (ListView) findViewById(R.id.sentencelist);
         final TextView header = (TextView) findViewById(R.id.negativelistheader);
 
+
+        //------------- NavigationBar ---------------------
+        final NavigationView nav_view_generate = (NavigationView)findViewById(R.id.nav_menu_list);
+
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout,R.string.open,R.string.close);
+
+        mDrawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         //Videosequenz
         //which Videoview is used?
         final VideoView videoview = (VideoView) findViewById(R.id.playvideosentencelist);
@@ -76,6 +96,48 @@ public class Sentence_List extends AppCompatActivity {
         //Make the videoview box invisible
         videoview.setVisibility(View.INVISIBLE);
 
+
+        nav_view_generate.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                //Menüeintrag zum generieren
+                if (id == R.id.menu)
+                {
+                    Intent generate = new Intent(Sentence_List.this, MainActivity.class);
+                    startActivity(generate);
+                    return false;
+                }
+
+                //Menüeintrag zum eingeben
+                if (id == R.id.menu_generate)
+                {
+                    Intent input = new Intent(Sentence_List.this, Text_Generate_Activity.class);
+                    startActivity(input);
+                    return false;
+                }
+
+                //Menüeintrag zur Satzliste
+                if (id == R.id.menu_input)
+                {
+                    Intent list = new Intent(Sentence_List.this, Text_Output.class);
+                    startActivity(list);
+                    return false;
+                }
+
+                //Menüeintrag zur Hilfeseite
+                if (id == R.id.menu_help)
+                {
+                    Intent help = new Intent(Sentence_List.this, Help.class);
+                    startActivity(help);
+                    return false;
+                }
+                return false;
+            }
+        });
+
+
+        //------------- NavigationBar ---------------------
 
         dataSource = new GlaubenssatzeMemoDataSource(this);
 
@@ -315,6 +377,31 @@ private void initializeContextualActionBar() {
         this.currentPairNumber = currentPairNumber;
     }
 
+    //------------- NavigationBar ---------------------
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.navigation_menu_list, menu);
+        return true;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        //Welcher Menüeintrag wurde geklickt
+        int id = item.getItemId();
+
+
+        if (mToggle.onOptionsItemSelected(item))
+        {
+
+            return true;
+        }
+
+
+        return super.onOptionsItemSelected(item);
+    }
+    //------------- NavigationBar ---------------------
 
 }
 

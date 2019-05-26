@@ -1,7 +1,0 @@
-#Internal package file, do not edit.
-#Wed May 22 17:38:43 CEST 2019
-0.baseType=DIRECTORY
-0.base=C\:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-0.path=classes.dex
-0.set=DEX
-count=1
