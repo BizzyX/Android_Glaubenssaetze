@@ -152,6 +152,10 @@
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-hdpi_activity_sentencelist_positiv.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-hdpi\\activity_sentencelist_positiv.xml"
+    },
+    {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\drawable-xxhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -362,6 +366,10 @@
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_design_ic_visibility_off.png.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\a4b6ac27e59e25057524b3f4218e17c4\\res\\drawable-xxhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-hdpi_custom_item_list_adapter.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-hdpi\\custom_item_list_adapter.xml"
     },
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -644,6 +652,10 @@
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\a22690255ae9dba1d5761951b6a632cc\\res\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png"
     },
     {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-xhdpi_activity_main.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-xhdpi\\activity_main.xml"
+    },
+    {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_design_tint_password_toggle.xml.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\a4b6ac27e59e25057524b3f4218e17c4\\res\\color-v23\\design_tint_password_toggle.xml"
     },
@@ -684,6 +696,14 @@
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-land_activity_main.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-land\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-xhdpi_activity_text_generate_.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-xhdpi\\activity_text_generate_.xml"
+    },
+    {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\raw_fire.mp4.flat",
         "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\raw\\fire.mp4"
     },
@@ -706,6 +726,10 @@
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\drawable-hdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-xhdpi_custom_item_list_adapter.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-xhdpi\\custom_item_list_adapter.xml"
     },
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
@@ -960,6 +984,10 @@
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\drawable-ldrtl-xxxhdpi-v17\\abc_spinner_mtrl_am_alpha.9.png"
     },
     {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-xhdpi_activity_sentencelist.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-xhdpi\\activity_sentencelist.xml"
+    },
+    {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_header_item_layout.xml.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
@@ -1102,6 +1130,10 @@
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\a22690255ae9dba1d5761951b6a632cc\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-xlarge_activity_main.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-xlarge\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_star_half_black_16dp.png.flat",
@@ -1312,6 +1344,10 @@
         "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_launcher_foreground.png"
     },
     {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-hdpi_activity_sentencelist.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-hdpi\\activity_sentencelist.xml"
+    },
+    {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
@@ -1442,6 +1478,10 @@
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\color-v23_abc_tint_edittext.xml.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\color-v23\\abc_tint_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-hdpi_activity_main.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-hdpi\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
@@ -1832,6 +1872,10 @@
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
     },
     {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-xhdpi_activity_sentencelist_positiv.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-xhdpi\\activity_sentencelist_positiv.xml"
+    },
+    {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable_tooltip_frame_light.xml.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\drawable\\tooltip_frame_light.xml"
     },
@@ -1890,6 +1934,10 @@
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\drawable-mdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-hdpi_activity_text_generate_.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-hdpi\\activity_text_generate_.xml"
     },
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\color_abc_secondary_text_material_light.xml.flat",

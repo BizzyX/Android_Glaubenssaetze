@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="hdpi_headline_width"></dimen>
+    <dimen name="hdpi_headline_height"></dimen>
+    <dimen name="hdpi_headline_fontsize">16sp</dimen>
+    <dimen name="hdpi_button_font_size">8sp</dimen>
+    <dimen name="hdpi_button_width">120dp</dimen>
+    <dimen name="hdpi_button_height">43dp</dimen>
+    <dimen name="hdpi_image_width">228dp</dimen>
+    <dimen name="hdpi_image_height">203dp</dimen>
+    <dimen name="hdpi_app_name_width">175dp</dimen>
+    <dimen name="hdpi_app_name_height">38dp</dimen>
+    <dimen name="hdpi_app_description_width">220dp</dimen>
+    <dimen name="hdpi_app_description_height">30dp</dimen>
+    <dimen name="hdpi_sentencelist_width">262dp</dimen>
+    <dimen name="hdpi_sentencelist_height">260dp</dimen>
+
+    <dimen name="hdpi_sentencelist_fontsize">25sp</dimen>
+    <dimen name="hdpi_divider_height">0.1dp</dimen>
+
+
+
+
+
+
+
+
+
+
+
+    <dimen name="xhdpi_headline_fontsize">24sp</dimen>
+    <dimen name="xhdpi_font_size_button">15sp</dimen>
+    <dimen name="xhdpi_app_name_font_size">30sp</dimen>
+    <dimen name="xhdpi_app_description_font_size">14sp</dimen>
+    <dimen name="xhdpi_button_width">156dp</dimen>
+    <dimen name="xhdpi_button_height">56dp</dimen>
+    <dimen name="xhdpi_image_width">296dp</dimen>
+    <dimen name="xhdpi_image_height">265dp</dimen>
+    <dimen name="xhdpi_app_name_width">228dp</dimen>
+    <dimen name="xhdpi_app_name_height">49dp</dimen>
+    <dimen name="xhdpi_app_description_width">250dp</dimen>
+    <dimen name="xhdpi_app_description_height">30dp</dimen>
+
+    <dimen name="xhdpi_sentencelist_width">341dp</dimen>
+    <dimen name="xhdpi_sentencelist_height">312dp</dimen>
+    <dimen name="xhdpi_sentencelist_fontsize">30sp</dimen>
+
+
+
+
+
+
+</resources>

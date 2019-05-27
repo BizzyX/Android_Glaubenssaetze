@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    style="@style/AppCompat"
+    tools:context="fhbielefeld.glaubenssaetze_app.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:id="@+id/drawerLayout"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/App_Description"
+            android:layout_width="@dimen/xhdpi_app_description_width"
+            android:layout_height="@dimen/xhdpi_app_description_height"
+            android:fontFamily="casual"
+            android:text="@string/app_name_description"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.100000024" />
+
+        <TextView
+            android:id="@+id/App_Name"
+            android:layout_width="@dimen/xhdpi_app_name_width"
+            android:layout_height="@dimen/xhdpi_app_name_height"
+            android:fontFamily="casual"
+            android:text="@string/app_name"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            android:visibility="visible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.01999998" />
+
+        <Button
+            android:id="@+id/inputtext"
+            style="@android:style/Widget.Button"
+            android:layout_width="@dimen/xhdpi_button_width"
+            android:layout_height="@dimen/xhdpi_button_height"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@mipmap/brazilnuticon"
+            android:fontFamily="casual"
+            android:text="@string/satzpaar_eingeben"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <Button
+            android:id="@+id/generatetext"
+            style="@android:style/Widget.Button"
+            android:layout_width="@dimen/xhdpi_button_width"
+            android:layout_height="@dimen/xhdpi_button_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@mipmap/nuticon"
+            android:fontFamily="casual"
+            android:text="@string/satzpaar_generieren"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.15"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.82" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="@dimen/xhdpi_image_width"
+            android:layout_height="@dimen/xhdpi_image_height"
+            android:contentDescription="@string/wallnuss"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.36"
+            app:srcCompat="@drawable/wallpaper" />
+
+        <Button
+            android:id="@+id/showlist"
+            style="@android:style/Widget.Button"
+            android:layout_width="@dimen/xhdpi_button_width"
+            android:layout_height="@dimen/xhdpi_button_height"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@mipmap/hazelnuticon"
+            android:fontFamily="casual"
+            android:text="@string/satzpaare_anzeigen"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.151"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95" />
+
+        <Button
+            android:id="@+id/helppage"
+            style="@android:style/Widget.Button"
+            android:layout_width="@dimen/xhdpi_button_width"
+            android:layout_height="@dimen/xhdpi_button_height"
+            android:layout_marginBottom="8dp"
+            android:drawableLeft="@mipmap/peanuticon"
+            android:fontFamily="casual"
+            android:text="@string/play_help_sound"
+            android:textSize="12sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.85"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.95" />
+
+</android.support.constraint.ConstraintLayout>
+
+    <android.support.design.widget.NavigationView
+        android:layout_width="wrap_content"
+        android:id="@+id/nav_menu"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:menu="@menu/navigation_menu">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>
