@@ -3,6 +3,7 @@ package fhbielefeld.glaubenssaetze_app;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -18,53 +19,138 @@ import android.widget.SeekBar;
 /**
  * Created by philpetschull on 20.06.18.
  */
+//implements View.OnClickListener
 
-public class Help extends AppCompatActivity{
+public class Help extends AppCompatActivity {
+
 
     //Navigation Bar Variables
     private DrawerLayout mDrawerLayout;
     private ActionBarDrawerToggle mToggle;
+
+    //Seekbar
+    private SeekBar seekBar;
+    private SeekBar seekBar2;
+    private Runnable runnable;
+    private Handler handler;
+    private ImageButton btnPlay1;
+    private ImageButton btnStop1;
+    private ImageButton btnBack1;
+    private MediaPlayer findSentence;
+    private MediaPlayer usefullApp;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_help);
 
+        //Find Sentence
+        findSentence = MediaPlayer.create(this, R.raw.find_sentences);
 
+        //Useful App
+        usefullApp = MediaPlayer.create(this, R.raw.usefull_app);
+
+
+        //Buttons(Play,Stop,Back)
+        btnPlay1 = findViewById(R.id.playbutton1);
+        btnStop1 = findViewById(R.id.stopbutton1);
+        btnBack1 = findViewById(R.id.backbutton1);
+
+        handler = new Handler();
 
         //PLAY SOUNDS TO HELP THE USER
+        seekBar = findViewById(R.id.seekBar);
+        seekBar2 = findViewById(R.id.seekBar2);
 
-        //Find Sentence
-        final MediaPlayer findSentence = MediaPlayer.create(this, R.raw.find_sentences);
 
 
-        ImageButton playfindSentence = (ImageButton) this.findViewById(R.id.playbutton1);
+        findSentence.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mediaPlayer) {
+                seekBar.setMax(findSentence.getDuration());
+                playCycle();
+                findSentence.start();
+            }
+        });
+
+        seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int progress, boolean input) {
+                if (input)
+                {
+                    findSentence.seekTo(progress);
+                }
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+        });
+
+
+
+
 
         //Play Sound
-        playfindSentence.setOnClickListener(new View.OnClickListener() {
+        btnPlay1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View v) {
+                seekBar.setProgress(findSentence.getDuration());
+                playCycle();
                 findSentence.start();
+
+
             }
 
         });
-        //Stop Sound
-        ImageButton stopfindSentence = (ImageButton) this.findViewById(R.id.stopbutton1);
 
-        stopfindSentence.setOnClickListener(new View.OnClickListener(){
+
+        btnStop1.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v){
+            public void onClick(View view) {
                 try {
+                    seekBar.setProgress(findSentence.getDuration());
+                    playCycle();
                     findSentence.pause();
-                    findSentence.seekTo(0);
                 }
                 catch (Exception e)
                 {
                     e.printStackTrace();
                 }
-            }
 
+
+            }
         });
+
+      btnBack1.setOnClickListener(new View.OnClickListener() {
+          @Override
+          public void onClick(View view) {
+              if (findSentence.isPlaying())
+              {
+                  try {
+                      seekBar.setProgress(findSentence.getDuration());
+                      playCycle();
+                      findSentence.pause();
+                      findSentence.seekTo(0);
+                  }
+                  catch (Exception e)
+                  {
+                      e.printStackTrace();
+                  }
+              }
+              else return;
+
+          }
+      });
+
 
         //------------- NavigationBar ---------------------
         final NavigationView nav_view_generate = (NavigationView)findViewById(R.id.nav_menu_help);
@@ -120,11 +206,11 @@ public class Help extends AppCompatActivity{
 
         //------------- NavigationBar ---------------------
 
-        //Useful App
-        final MediaPlayer usefullApp = MediaPlayer.create(this,R.raw.usefull_app);
 
-        ImageButton playusefullApp = (ImageButton) this.findViewById(R.id.playbutton2);
 
+        //ImageButton playusefullApp = (ImageButton) this.findViewById(R.id.playbutton2);
+
+        /*
         //Play Sound
         playusefullApp.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -132,10 +218,11 @@ public class Help extends AppCompatActivity{
                 usefullApp.start();
             }
         });
-
+        */
         //Stop Sound
-        ImageButton stopusefullSentence = (ImageButton) this.findViewById(R.id.stopbutton2);
+        //ImageButton stopusefullSentence = (ImageButton) this.findViewById(R.id.stopbutton2);
 
+        /*
         stopusefullSentence.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -149,8 +236,14 @@ public class Help extends AppCompatActivity{
                 }
             }
         });
+        */
+
+
+
+
 
     }
+
 
     //------------- NavigationBar ---------------------
     @Override
@@ -177,4 +270,44 @@ public class Help extends AppCompatActivity{
         return super.onOptionsItemSelected(item);
     }
     //------------- NavigationBar ---------------------
+
+
+    //------------- seekBar1 ---------------------
+    public void playCycle()
+    {
+        seekBar.setProgress(findSentence.getCurrentPosition());
+        if (findSentence.isPlaying())
+        {
+            runnable = new Runnable() {
+                @Override
+                public void run() {
+                playCycle();
+                }
+            };
+            handler.postDelayed(runnable,1000);
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        findSentence.release();
+        handler.removeCallbacks(runnable);
+    }
+    //------------- seekBar1 ---------------------
+
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        findSentence.start();
+        playCycle();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        findSentence.pause();
+    }
 }
+

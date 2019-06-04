@@ -76,6 +76,10 @@
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\a22690255ae9dba1d5761951b6a632cc\\res\\layout\\notification_action.xml"
     },
     {
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-hdpi_activity_help.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-hdpi\\activity_help.xml"
+    },
+    {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-v26_abc_screen_toolbar.xml.flat",
         "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\aa13ef361aa5d958fcc5f027a9e12254\\res\\layout-v26\\abc_screen_toolbar.xml"
     },

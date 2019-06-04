@@ -121,7 +121,7 @@ ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\An
 	android:name
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:31:19-48
 activity#fhbielefeld.glaubenssaetze_app.Help
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:32:9-51
+ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:32:9-42
 	android:name
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:32:19-39
 activity#fhbielefeld.glaubenssaetze_app.Text_Output_Positiv
