@@ -21,7 +21,7 @@ import android.widget.SeekBar;
  */
 //implements View.OnClickListener
 
-public class Help extends AppCompatActivity {
+public class Help extends AppCompatActivity  {
 
 
     //Navigation Bar Variables
@@ -32,10 +32,15 @@ public class Help extends AppCompatActivity {
     private SeekBar seekBar;
     private SeekBar seekBar2;
     private Runnable runnable;
+    private Runnable runnable2;
     private Handler handler;
+    private Handler handler2;
     private ImageButton btnPlay1;
     private ImageButton btnStop1;
     private ImageButton btnBack1;
+    private ImageButton btnPlay2;
+    private ImageButton btnStop2;
+    private ImageButton btnBack2;
     private MediaPlayer findSentence;
     private MediaPlayer usefullApp;
 
@@ -58,29 +63,65 @@ public class Help extends AppCompatActivity {
         btnStop1 = findViewById(R.id.stopbutton1);
         btnBack1 = findViewById(R.id.backbutton1);
 
+        //Buttons usefull app
+        btnPlay2 = findViewById(R.id.playbutton2);
+        btnStop2 = findViewById(R.id.stopbutton2);
+        btnBack2 = findViewById(R.id.backbutton2);
+
+        //handler
         handler = new Handler();
+        handler2 = new Handler();
 
         //PLAY SOUNDS TO HELP THE USER
         seekBar = findViewById(R.id.seekBar);
         seekBar2 = findViewById(R.id.seekBar2);
-
+        seekBar.setMax(findSentence.getDuration() / 1000);
+        seekBar2.setMax(usefullApp.getDuration() / 1000);
 
 
         findSentence.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer mediaPlayer) {
-                seekBar.setMax(findSentence.getDuration());
+
                 playCycle();
-                findSentence.start();
+
+            }
+        });
+
+        usefullApp.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mediaPlayer) {
+                playCycle();
             }
         });
 
         seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean input) {
-                if (input)
+                if(findSentence != null && input){
+                    findSentence.seekTo(progress * 1000);
+                }
+            }
+
+            @Override
+            public void onStartTrackingTouch(SeekBar seekBar) {
+
+            }
+
+            @Override
+            public void onStopTrackingTouch(SeekBar seekBar) {
+
+            }
+
+
+        });
+
+        seekBar2.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
+            @Override
+            public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
+                if (usefullApp != null && b)
                 {
-                    findSentence.seekTo(progress);
+                    usefullApp.seekTo(i * 1000);
                 }
             }
 
@@ -96,6 +137,23 @@ public class Help extends AppCompatActivity {
         });
 
 
+        //Make sure you update Seekbar on UI thread
+        Help.this.runOnUiThread(new Runnable() {
+
+            @Override
+            public void run() {
+                if(findSentence != null){
+                    int mCurrentPosition = (findSentence.getCurrentPosition() / 1000);
+                    seekBar.setProgress(mCurrentPosition);
+                }
+                if (usefullApp != null)
+                {
+                    int mCurrentPosition2 = (usefullApp.getCurrentPosition() / 1000);
+                    seekBar2.setProgress(mCurrentPosition2);
+                }
+                handler.postDelayed(this, 1000);
+            }
+        });
 
 
 
@@ -103,21 +161,21 @@ public class Help extends AppCompatActivity {
         btnPlay1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                seekBar.setProgress(findSentence.getDuration());
+                seekBar.setProgress(findSentence.getDuration() / 1000);
                 playCycle();
                 findSentence.start();
-
 
             }
 
         });
 
 
+
         btnStop1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 try {
-                    seekBar.setProgress(findSentence.getDuration());
+                    //seekBar.setProgress(findSentence.getDuration() / 1000);
                     playCycle();
                     findSentence.pause();
                 }
@@ -133,10 +191,9 @@ public class Help extends AppCompatActivity {
       btnBack1.setOnClickListener(new View.OnClickListener() {
           @Override
           public void onClick(View view) {
-              if (findSentence.isPlaying())
-              {
+
                   try {
-                      seekBar.setProgress(findSentence.getDuration());
+                      //seekBar.setProgress(findSentence.getDuration() / 1000);
                       playCycle();
                       findSentence.pause();
                       findSentence.seekTo(0);
@@ -146,10 +203,61 @@ public class Help extends AppCompatActivity {
                       e.printStackTrace();
                   }
               }
-              else return;
 
-          }
+
+
       });
+
+        //Play Sound
+        btnPlay2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                seekBar2.setProgress(usefullApp.getDuration() / 1000);
+                playCycle();
+                usefullApp.start();
+
+            }
+
+        });
+
+
+
+        btnStop2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                try {
+                    //seekBar.setProgress(findSentence.getDuration() / 1000);
+                    playCycle();
+                    usefullApp.pause();
+                }
+                catch (Exception e)
+                {
+                    e.printStackTrace();
+                }
+
+
+            }
+        });
+
+        btnBack2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                try {
+                    //seekBar.setProgress(findSentence.getDuration() / 1000);
+                    playCycle();
+                    usefullApp.pause();
+                    usefullApp.seekTo(0);
+                }
+                catch (Exception e)
+                {
+                    e.printStackTrace();
+                }
+            }
+
+
+
+        });
 
 
         //------------- NavigationBar ---------------------
@@ -275,7 +383,8 @@ public class Help extends AppCompatActivity {
     //------------- seekBar1 ---------------------
     public void playCycle()
     {
-        seekBar.setProgress(findSentence.getCurrentPosition());
+        seekBar.setProgress(findSentence.getCurrentPosition()/ 1000);
+        seekBar2.setProgress(usefullApp.getCurrentPosition()/1000);
         if (findSentence.isPlaying())
         {
             runnable = new Runnable() {
@@ -286,12 +395,23 @@ public class Help extends AppCompatActivity {
             };
             handler.postDelayed(runnable,1000);
         }
+        if (usefullApp.isPlaying())
+        {
+            runnable = new Runnable() {
+                @Override
+                public void run() {
+                    playCycle();
+                }
+            };
+            handler.postDelayed(runnable,1000);
+        }
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
         findSentence.release();
+        usefullApp.release();
         handler.removeCallbacks(runnable);
     }
     //------------- seekBar1 ---------------------
@@ -300,14 +420,14 @@ public class Help extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        findSentence.start();
-        playCycle();
+
     }
 
     @Override
     protected void onPause() {
         super.onPause();
         findSentence.pause();
+        usefullApp.pause();
     }
 }
 
