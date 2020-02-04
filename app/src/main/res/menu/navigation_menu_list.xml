@@ -2,7 +2,7 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item android:id="@+id/menu"
+<!--    <item android:id="@+id/menu"
         android:icon="@mipmap/nuticon"
         android:title="@string/Menu">
 
@@ -25,6 +25,6 @@
         android:icon="@mipmap/peanuticon"
         android:title="@string/Anleitungen">
 
-    </item>
+    </item>-->
 
 </menu>

@@ -30,24 +30,24 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.18" />
+            app:layout_constraintVertical_bias="0.19999999" />
 
         <TextView
             android:id="@+id/App_Name"
-            android:layout_width="228dp"
-            android:layout_height="49dp"
+            android:layout_width="365dp"
+            android:layout_height="56dp"
             android:fontFamily="casual"
             android:text="@string/app_name"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textStyle="bold|italic"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.01999998" />
+            app:layout_constraintVertical_bias="0.13999999" />
 
         <Button
             android:id="@+id/inputtext"
@@ -60,12 +60,13 @@
             android:text="@string/satzpaar_eingeben"
             android:textSize="12sp"
             android:textStyle="bold|italic"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.85"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.75" />
+            app:layout_constraintVertical_bias="0.83" />
 
         <Button
             android:id="@+id/generatetext"
@@ -81,24 +82,29 @@
             android:text="@string/satzpaar_generieren"
             android:textSize="12sp"
             android:textStyle="bold|italic"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.15"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.75" />
+            app:layout_constraintVertical_bias="0.83" />
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="183dp"
-            android:layout_height="155dp"
+            android:layout_width="300dp"
+            android:layout_height="260dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             android:contentDescription="@string/wallnuss"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.43"
+            app:layout_constraintVertical_bias="0.55"
             app:srcCompat="@drawable/wallpaper" />
 
         <Button
@@ -115,12 +121,13 @@
             android:text="@string/satzpaare_anzeigen"
             android:textSize="12sp"
             android:textStyle="bold|italic"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.151"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.969" />
 
         <Button
             android:id="@+id/helppage"
@@ -133,14 +140,30 @@
             android:text="@string/play_help_sound"
             android:textSize="12sp"
             android:textStyle="bold|italic"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.85"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0" />
+            app:layout_constraintVertical_bias="0.97" />
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/startButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/app_menu_start_button"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.84000003" />
+
+    </android.support.constraint.ConstraintLayout>
 
     <android.support.design.widget.NavigationView
         android:layout_width="wrap_content"

@@ -1,4 +1,4 @@
-#Wed Jun 12 10:49:19 CEST 2019
+#Tue Feb 04 18:47:01 CET 2020
 base.0=C\:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
