@@ -41,6 +41,27 @@ import android.widget.EditText;
 // TODO:  Gleiche Groeße für alle Bildschirmgrößen - https://www.youtube.com/watch?v=Fexqyr1MBbo
 
 
+/*
+
+    TODO:
+    Änderungen Ohlhoff
+    --------------------------------------------------
+
+    1.) als Überschrift immer und überall "Glaubenssätze knacken" statt einfach nur "Glaubenssätze"
+
+    2.) Die 3 Striche oben links um ins Menü zu kommen, sollten immer und auf allen Ebenen da sein.
+
+    3.) Glaubenssätze sind manchmal zu lang: kürzen oder zum scrollen anbieten, z.B. bei Glaubenssatz lösen: " Es ist in Ordnung, wenn ich mehr Erfolg....."
+
+    4.) bei "Satzpaar generieren" sollte gleich ein Satz kommen, ohne daß man nochmal drücken muß
+
+    5.) wenn ein "zufälliger negativer Glaubenssatz" angezeigt wird, sollte es 2 Buttons geben: " den glaubenssatz auflösen" (gibt es schon) und "anderen zufälligen Satz generieren"
+
+    Änderungen Klenke
+    ---------------------------------------------------
+
+ */
+
 
 /*
 
