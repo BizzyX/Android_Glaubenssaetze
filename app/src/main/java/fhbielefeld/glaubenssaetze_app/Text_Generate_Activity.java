@@ -49,7 +49,9 @@ public class Text_Generate_Activity extends AppCompatActivity {
         dataSource = new GlaubenssatzeMemoDataSource(this);
 
         final Button btn = (Button) findViewById(R.id.button3);
-        Button btn2 = (Button) findViewById(R.id.button);
+        final Button btn2 = (Button) findViewById(R.id.button);
+        btn.setVisibility(View.VISIBLE);
+        btn2.setVisibility(View.INVISIBLE);
 
 
 
@@ -136,13 +138,17 @@ public class Text_Generate_Activity extends AppCompatActivity {
 
                 randomText.setError(null);
 
+                //Make the button invisible after a click
+                btn.setVisibility(View.INVISIBLE);
+                btn2.setVisibility(View.VISIBLE);
+
                 //generate a sentece out of the database
                 Random randomGenerator = new Random();
                 //Datenquelle wird geoeffnet
                 dataSource.open();
                 //Liste
                 List<GlaubenssaetzeMemo> glaubenssaetzeMemoList = dataSource.getAllGlaubenssaetzeMemos();
-                //Einen Random Eintrag aus der Liste
+                //get a random sentence from the list
                 int index = randomGenerator.nextInt(glaubenssaetzeMemoList.size());
                 GlaubenssaetzeMemo item = glaubenssaetzeMemoList.get(index);
                 String randomObject = item.getSentence().toString();
@@ -151,8 +157,6 @@ public class Text_Generate_Activity extends AppCompatActivity {
                 long Pairnumber = item.getPairnumber();
                 Log.d(LOG_TAG, "Die gematchte Paarnummer ist: " + Pairnumber);
                 dataSource.close();
-
-
             }
         });
 

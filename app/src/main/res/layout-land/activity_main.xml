@@ -30,12 +30,13 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.19999999" />
+            app:layout_constraintVertical_bias="0.16000003" />
 
         <TextView
             android:id="@+id/App_Name"
             android:layout_width="365dp"
             android:layout_height="56dp"
+            android:layout_marginTop="8dp"
             android:fontFamily="casual"
             android:text="@string/app_name"
             android:textAlignment="center"
@@ -47,7 +48,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.13999999" />
+            app:layout_constraintVertical_bias="0.050000012" />
 
         <Button
             android:id="@+id/inputtext"
@@ -150,18 +151,22 @@
 
         <Button
             android:id="@+id/startButton"
+            style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="8dp"
+            android:drawableLeft="@mipmap/nuticon"
+            android:fontFamily="casual"
             android:text="@string/app_menu_start_button"
+            android:textSize="12sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.84000003" />
+            app:layout_constraintVertical_bias="0.9" />
 
     </android.support.constraint.ConstraintLayout>
 

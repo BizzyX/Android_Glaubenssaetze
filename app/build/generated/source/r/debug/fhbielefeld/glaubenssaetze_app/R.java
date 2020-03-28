@@ -3852,11 +3852,14 @@ public final class R {
     public static final int brazilnuticon=0x7f0c0000;
     public static final int hazelnuticon=0x7f0c0001;
     public static final int ic_launcher=0x7f0c0002;
-    public static final int ic_launcher_round=0x7f0c0003;
-    public static final int nutfree=0x7f0c0004;
-    public static final int nuticon=0x7f0c0005;
-    public static final int nutnotfree=0x7f0c0006;
-    public static final int peanuticon=0x7f0c0007;
+    public static final int ic_launcher_old=0x7f0c0003;
+    public static final int ic_launcher_round=0x7f0c0004;
+    public static final int ic_launcher_round_old=0x7f0c0005;
+    public static final int ic_launcher_round_old2=0x7f0c0006;
+    public static final int nutfree=0x7f0c0007;
+    public static final int nuticon=0x7f0c0008;
+    public static final int nutnotfree=0x7f0c0009;
+    public static final int peanuticon=0x7f0c000a;
   }
   public static final class raw {
     public static final int explode=0x7f0d0000;
