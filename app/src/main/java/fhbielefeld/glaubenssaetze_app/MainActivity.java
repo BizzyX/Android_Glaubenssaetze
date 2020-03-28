@@ -8,6 +8,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -71,20 +72,11 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
-
-
 
 
         //------------- NavigationBar ---------------------
@@ -102,6 +94,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
+
+
                 //Menüeintrag zum generieren
                 if (id == R.id.menu_generate)
                 {
@@ -242,6 +236,7 @@ public class MainActivity extends AppCompatActivity {
     public Button textInput;
     public Button showList;
     public Button helpButton;
+    public Button startButton;
 
     //init function initialized all clickable buttons
     public void init(){
@@ -290,6 +285,15 @@ public class MainActivity extends AppCompatActivity {
                 dataSource.open();
                 Intent sentence_list = new Intent(MainActivity.this,Sentence_List.class);
                 startActivity(sentence_list);
+            }
+        });
+
+        //Startbutton to open the NavBar
+        startButton = (Button)findViewById(R.id.startButton);
+        startButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mDrawerLayout.openDrawer(Gravity.START);
             }
         });
 

@@ -17,8 +17,8 @@
 
         <TextView
             android:id="@+id/App_Description"
-            android:layout_width="@dimen/xhdpi_app_description_width"
-            android:layout_height="@dimen/xhdpi_app_description_height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:text="@string/app_name_description"
             android:textAlignment="center"
@@ -30,48 +30,50 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.100000024" />
+            app:layout_constraintVertical_bias="0.16000003" />
 
         <TextView
             android:id="@+id/App_Name"
-            android:layout_width="@dimen/xhdpi_app_name_width"
-            android:layout_height="@dimen/xhdpi_app_name_height"
+            android:layout_width="365dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="8dp"
             android:fontFamily="casual"
             android:text="@string/app_name"
             android:textAlignment="center"
             android:textColor="#000000"
-            android:textSize="30sp"
+            android:textSize="40sp"
             android:textStyle="bold|italic"
             android:visibility="visible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.01999998" />
+            app:layout_constraintVertical_bias="0.050000012" />
 
         <Button
             android:id="@+id/inputtext"
             style="@android:style/Widget.Button"
-            android:layout_width="@dimen/xhdpi_button_width"
-            android:layout_height="@dimen/xhdpi_button_height"
+            android:layout_width="156dp"
+            android:layout_height="56dp"
             android:layout_marginBottom="8dp"
             android:drawableLeft="@mipmap/brazilnuticon"
             android:fontFamily="casual"
             android:text="@string/satzpaar_eingeben"
             android:textSize="12sp"
             android:textStyle="bold|italic"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintHorizontal_bias="0.85"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.82" />
+            app:layout_constraintVertical_bias="0.83" />
 
         <Button
             android:id="@+id/generatetext"
             style="@android:style/Widget.Button"
-            android:layout_width="@dimen/xhdpi_button_width"
-            android:layout_height="@dimen/xhdpi_button_height"
+            android:layout_width="156dp"
+            android:layout_height="56dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
@@ -81,31 +83,36 @@
             android:text="@string/satzpaar_generieren"
             android:textSize="12sp"
             android:textStyle="bold|italic"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintHorizontal_bias="0.15"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.82" />
+            app:layout_constraintVertical_bias="0.83" />
 
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="@dimen/xhdpi_image_width"
-            android:layout_height="@dimen/xhdpi_image_height"
+            android:layout_width="300dp"
+            android:layout_height="260dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
             android:contentDescription="@string/wallnuss"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.491"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.36"
+            app:layout_constraintVertical_bias="0.55"
             app:srcCompat="@drawable/wallpaper" />
 
         <Button
             android:id="@+id/showlist"
             style="@android:style/Widget.Button"
-            android:layout_width="@dimen/xhdpi_button_width"
-            android:layout_height="@dimen/xhdpi_button_height"
+            android:layout_width="156dp"
+            android:layout_height="56dp"
             android:layout_marginBottom="8dp"
             android:layout_marginEnd="8dp"
             android:layout_marginStart="8dp"
@@ -115,32 +122,53 @@
             android:text="@string/satzpaare_anzeigen"
             android:textSize="12sp"
             android:textStyle="bold|italic"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.2"
+            app:layout_constraintHorizontal_bias="0.151"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.95" />
+            app:layout_constraintVertical_bias="0.969" />
 
         <Button
             android:id="@+id/helppage"
             style="@android:style/Widget.Button"
-            android:layout_width="@dimen/xhdpi_button_width"
-            android:layout_height="@dimen/xhdpi_button_height"
+            android:layout_width="156dp"
+            android:layout_height="56dp"
             android:layout_marginBottom="8dp"
             android:drawableLeft="@mipmap/peanuticon"
             android:fontFamily="casual"
             android:text="@string/play_help_sound"
             android:textSize="12sp"
             android:textStyle="bold|italic"
+            android:visibility="invisible"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.8"
+            app:layout_constraintHorizontal_bias="0.85"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.95" />
+            app:layout_constraintVertical_bias="0.97" />
 
-</android.support.constraint.ConstraintLayout>
+        <Button
+            android:id="@+id/startButton"
+            style="@android:style/Widget.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@mipmap/nuticon"
+            android:fontFamily="casual"
+            android:text="@string/app_menu_start_button"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.9" />
+
+    </android.support.constraint.ConstraintLayout>
 
     <android.support.design.widget.NavigationView
         android:layout_width="wrap_content"

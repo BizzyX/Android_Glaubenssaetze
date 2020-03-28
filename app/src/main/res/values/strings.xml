@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Glaubenssätze</string>
     <string name="app_name_description">- Der Unterstützer für unterwegs -</string>
+    <string name="app_menu_start_button">Starten</string>
     <string name="generate_negative">Ein Zufälliger negativer Glaubenssatz</string>
     <string name="editText_error_message">Keine gültige Eingabe</string>
     <string name="sentence_generate_error">Zuerst muss ein zufälliger Satz generiert werden</string>

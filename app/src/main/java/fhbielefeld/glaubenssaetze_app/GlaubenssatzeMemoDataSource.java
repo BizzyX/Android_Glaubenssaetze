@@ -160,50 +160,46 @@ public class GlaubenssatzeMemoDataSource {
 
     //get a list with all negative entries of the "glaubenssaetzememodatabase"
     public List<GlaubenssaetzeMemo> getAllGlaubenssaetzeMemos() {
+        //New Array List glaubenssaetzeMemoList
         List<GlaubenssaetzeMemo> glaubenssaetzeMemoList = new ArrayList<>();
 
-        //Abfrage ob der Glaubenssatz ein negativer Satz ist
+        //Check if the status is "n" for negative
         String whereClause = " status =  ?";
         String[] whereArgs = new String[] {" n "};
-       Cursor cursor = database.query(GlaubenssaetzeMemoDbHelper.TABLE_SENTENCE_LIST , columns , whereClause , whereArgs, null , null , null);
+        //Set the cursor to the database table 'TABLE_SENTENCE_LIST where whereClause => status = n
+        Cursor cursor = database.query(GlaubenssaetzeMemoDbHelper.TABLE_SENTENCE_LIST , columns , whereClause , whereArgs, null , null , null);
 
-
+        //Set the cursor to the first position
         cursor.moveToFirst();
         GlaubenssaetzeMemo glaubenssaetzeMemo;
-
+        //While cursor is not at the end - add the item to the list
         while(!cursor.isAfterLast()) {
             glaubenssaetzeMemo = cursorToGlaubenssaetzeMemo(cursor);
             glaubenssaetzeMemoList.add(glaubenssaetzeMemo);
             Log.d(LOG_TAG, "ID: " + glaubenssaetzeMemo.getId() + ", Inhalt: " + glaubenssaetzeMemo.toString() + ", Paarnummer: " + glaubenssaetzeMemo.getPairnumber());
             cursor.moveToNext();
         }
-
-
-
+        //close the cursor
         cursor.close();
-
+        //return the list
         return glaubenssaetzeMemoList;
     }
 
-
-
-
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     public List<GlaubenssaetzeMemo> getPostiveSentences( long Pairnumber) {
-        //Pairnumber wird der Funktion übergeben, anhand dieser wird eine Liste erstellt die alle positiven
-        //Satze enthaelt die zu dem generierten negativen Satz passen
-        //Eine leere Liste wird angelegt
+        //pairnumber of the related negative sentence
         List<GlaubenssaetzeMemo> positiveMemoList = new ArrayList<>();
 
-        //Abfrage ob der Glaubenssatz positiv ist und der richtigen Pairnumber entspricht
+        //convert the pairnumber into a string
         long negativePairNumber = Pairnumber;
         String PairNumberString = Objects.toString( negativePairNumber, null);
         //Bedingunen fuer die Datenbankabfrage: Status = Positiv , Paarnummer = die die uebergeben wurde
 
+        //status has to be " p " and the pairnumber has to be the one relating to the negative sentence
         String whereClause = " status = ? AND pairnumber  = ? ";
         String[] whereArgs = new String[] {" p " , PairNumberString };
 
-        //Datenbankabfrage
+        //database query with where conditions
         Cursor cursor = database.query(GlaubenssaetzeMemoDbHelper.TABLE_SENTENCE_LIST, columns , whereClause , whereArgs , null , null , null );
 
         cursor.moveToFirst();
@@ -216,9 +212,7 @@ public class GlaubenssatzeMemoDataSource {
             Log.d(LOG_TAG, "ID: " + glaubenssaetzeMemo.getId() + ", Inhalt: " + glaubenssaetzeMemo.toString() + ", Paarnummer: " + glaubenssaetzeMemo.getPairnumber());
             cursor.moveToNext();
         }
-
         cursor.close();
-
         //deliver the list with matching positive sentences
         return positiveMemoList;
     }
