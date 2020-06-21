@@ -72,6 +72,7 @@ public class Sentence_List extends AppCompatActivity {
         setContentView(R.layout.activity_sentencelist);
         final ListView sentenceList = (ListView) findViewById(R.id.sentencelist);
         final TextView header = (TextView) findViewById(R.id.negativelistheader);
+        final TextView header_desc = (TextView) findViewById(R.id.negativelistdesc);
 
 
         //------------- NavigationBar ---------------------
@@ -88,7 +89,7 @@ public class Sentence_List extends AppCompatActivity {
         //Videosequenz
         //which Videoview is used?
         final VideoView videoview = (VideoView) findViewById(R.id.playvideosentencelist);
-
+        final MediaPlayer explosionsound = MediaPlayer.create(this, R.raw.explosion_4);
         //Which video should be played out of the raw folder?
         Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.explode);
         videoview.setVideoURI(uri);
@@ -102,7 +103,7 @@ public class Sentence_List extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 //Menüeintrag zum generieren
-                if (id == R.id.menu)
+                if (id == R.id.menu_main)
                 {
                     Intent generate = new Intent(Sentence_List.this, MainActivity.class);
                     startActivity(generate);
@@ -164,13 +165,14 @@ public class Sentence_List extends AppCompatActivity {
             videoview.setVisibility(View.VISIBLE);
 
             sentenceList.setVisibility(View.INVISIBLE);
-
             header.setVisibility(View.INVISIBLE);
+            header_desc.setVisibility(View.INVISIBLE);
 
 
 
             //Video wird abgespielt
             videoview.start();
+            explosionsound.start();
 
 
 
@@ -380,8 +382,9 @@ private void initializeContextualActionBar() {
     //------------- NavigationBar ---------------------
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.navigation_menu_list, menu);
-        return true;
+        //getMenuInflater().inflate(R.menu.navigation_menu_help, menu);
+        //return true;
+        return false;
     }
 
 

@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">Glaubenssätze</string>
-    <string name="app_name_description">- Der Unterstützer für unterwegs -</string>
+    <string name ="app_title">Glaubenssätze</string>
+    <string name="app_name">Glaubenssätze sprengen unterwegs</string>
+    <string name="app_name_description">- Glaubenssätze sprengen unterwegs -</string>
     <string name="app_menu_start_button">Starten</string>
     <string name="generate_negative">Ein Zufälliger negativer Glaubenssatz</string>
     <string name="editText_error_message">Keine gültige Eingabe</string>
@@ -12,11 +13,18 @@
     <string name="dialog_title_sentence">Glaubenssatz:</string>
     <string name="dialog_button_positive">Ändern</string>
     <string name="dialog_button_negative">Abbrechen</string>
+    <string name="list_tutorial">Klicken Sie mit einem kurzen Klick auf einen Satz aus der Liste um diesen aufzulösen und mit einem längeren Klick um diesen zu bearbeiten oder zu löschen</string>
 
     <string name="play_help_sound">Hilfe</string>
     <string name="usefull_app">Was bringt es Ihnen diese App zu benutzen?</string>
     <string name="find_sentences">So finden Sie Ihre Glaubenssaetze</string>
     <string name="stop_sound">Stop</string>
+    <string name="How_To_Start_This_App">Wie steige ich in die App ein?</string>
+    <string name="How_To_Use">Diese App kann über den "Starten"-Button oder direkt über das Menü, welches oben links in Form von drei übereinanderliegenden Strichen zu finden ist, gestartet werden.
+    Unter Satzpaar generieren wird ein zufälliger negativer Glaubenssatz aus der Liste generiert. Dieser kann entweder aufgelöst werden oder ein weiterer negativer Glaubenssatz wird generiert.
+    Unter Satzpaare anzeigen werden zunächst alle vorhandenen negativen Glaubenssätze angezeigt. Diese können mit einem kurzen Klick aufgelöst werden. Ein längerer Klick lässt den Satz bearbeiten oder löschen.
+    Unter Satzpaar eingeben kann ein eigener negativer Glaubenssatz eingegeben werden. Nach dem Sprengen des Satzes kann ein positiver Glaubenssatz eingegeben werden.
+    </string>
 
     <string name="satzpaar_eingeben">Satzpaar eingeben</string>
     <string name="glaubenssaetze">Glaubenssaetze</string>
@@ -24,19 +32,20 @@
     <string name="satzpaare_anzeigen">Satzpaare anzeigen</string>
 
     <string name="ButtonErzeugen">Zufällig generieren</string>
-    <string name="Buttonloesen">Den Glaubenssatz auflösen</string>
+    <string name="Buttonloesen">Diesen Glaubenssatz auflösen</string>
     <string name="Buttonspeichern">Speichern</string>
-    <string name="Buttonweiterersatz">Weiteren Satz eingeben</string>
+    <string name="Buttonknacken">Knacken</string>
+    <string name="Buttonweiterersatz">Weiteren auflösenden Glaubenssatz eingeben</string>
 
     <string name="wallnuss">wallnuss</string>
     <string name="Menu">Menü</string>
     <string name="Weiter">Weiter</string>
-    <string name="passendeglaubenssatze">Wie finde ich passende Glaubenssaetze?</string>
+    <string name="passendeglaubenssatze">Wie finde ich passende Glaubenssätze?</string>
 
     <string name ="Negative_Glaubenssaetze">Liste der negativen Glaubenssätze</string>
-    <string name ="Positive_Glaubenssaetze">Mit diesen Sätzen können Sie ihren Glaubenssatz lösen</string>
+    <string name ="Positive_Glaubenssaetze">Mit diesen Sätzen/Mit diesem Satz können Sie ihren Glaubenssatz lösen</string>
 
-    <string name ="Negativer_Glaubenssatz">Welchen negativen Glaubenssatz möchten sie knacken?</string>
+    <string name ="Negativer_Glaubenssatz">Welchen negativen Glaubenssatz möchten sie sprengen?</string>
 
     <string name ="Anleitungen">Hilfe und Anleitungen</string>
 

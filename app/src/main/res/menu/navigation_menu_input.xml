@@ -2,18 +2,14 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item android:id="@+id/menu"
+    <item android:id="@+id/menu_main"
         android:icon="@mipmap/nuticon"
         android:title="@string/Menu">
-
-
     </item>
 
     <item android:id="@+id/menu_generate"
         android:icon="@mipmap/brazilnuticon"
         android:title="@string/satzpaar_generieren">
-
-
     </item>
 
     <item android:id="@+id/menu_list"
@@ -21,10 +17,10 @@
         android:title="@string/satzpaare_anzeigen">
     </item>
 
+
     <item android:id="@+id/menu_help"
         android:icon="@mipmap/peanuticon"
         android:title="@string/Anleitungen">
-
     </item>
 
 </menu>

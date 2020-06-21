@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Android_Glaubenssaetze.iml" filepath="$PROJECT_DIR$/Android_Glaubenssaetze.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_Glaubenssaetze.iml" filepath="$PROJECT_DIR$/Android_Glaubenssaetze.iml" group="Android_Glaubenssaetze" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Android_Glaubenssaetze/app" />
     </modules>
   </component>
 </project>

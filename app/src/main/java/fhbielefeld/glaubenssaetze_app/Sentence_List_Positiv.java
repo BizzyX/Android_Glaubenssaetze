@@ -5,7 +5,11 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.RequiresApi;
+import android.support.design.widget.NavigationView;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
@@ -39,6 +43,12 @@ public class Sentence_List_Positiv extends AppCompatActivity {
     //LOG-Konstanten
     public static final String LOG_TAG = MainActivity.class.getSimpleName();
 
+    //Navigation Bar Variables
+    private DrawerLayout mDrawerLayout;
+    private ActionBarDrawerToggle mToggle;
+
+
+    //selected pairnumber
     private long currentPairNumber;
 
 
@@ -47,9 +57,22 @@ public class Sentence_List_Positiv extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sentencelist_positiv);
+
         TextView matchingTextPositiv = (TextView) findViewById(R.id.randomText);
         dataSource = new GlaubenssatzeMemoDataSource(this);
         final Button menu       = (Button) findViewById(R.id.backtomenu);
+
+
+        //------------- NavigationBar ---------------------
+        final NavigationView nav_view_generate = (NavigationView)findViewById(R.id.nav_menu_list_positiv);
+        mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
+        mToggle = new ActionBarDrawerToggle(this, mDrawerLayout,R.string.open,R.string.close);
+        mDrawerLayout.addDrawerListener(mToggle);
+        mToggle.syncState();
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+
 
         Bundle extras = getIntent().getExtras();
         long Pairnumber = 1;
@@ -62,7 +85,46 @@ public class Sentence_List_Positiv extends AppCompatActivity {
         Log.d(LOG_TAG, "Die erhaltene Paarnummer ist: " +  Pairnumber);
         showAllPositiveEntries(Pairnumber);
         dataSource.close();
+        //Navigation_Bar
+        nav_view_generate.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+                int id = item.getItemId();
+                //Menüeintrag zum generieren
+                if (id == R.id.menu_main)
+                {
+                    Intent generate = new Intent(Sentence_List_Positiv.this, MainActivity.class);
+                    startActivity(generate);
+                    return false;
+                }
 
+                //Menüeintrag zum eingeben
+                if (id == R.id.menu_generate)
+                {
+                    Intent input = new Intent(Sentence_List_Positiv.this, Text_Generate_Activity.class);
+                    startActivity(input);
+                    return false;
+                }
+
+                //Menüeintrag zur Satzliste
+                if (id == R.id.menu_input)
+                {
+                    Intent list = new Intent(Sentence_List_Positiv.this, Text_Output.class);
+                    startActivity(list);
+                    return false;
+                }
+
+                //Menüeintrag zur Hilfeseite
+                if (id == R.id.menu_help)
+                {
+                    Intent help = new Intent(Sentence_List_Positiv.this, Help.class);
+                    startActivity(help);
+                    return false;
+                }
+                return false;
+            }
+        });
+        //Button Menu
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -71,9 +133,41 @@ public class Sentence_List_Positiv extends AppCompatActivity {
             }
         });
 
+
+
+
+        //------------- NavigationBar ---------------------
+
         initializeContextualActionBar();
 
     }
+
+    //------------- NavigationBar ---------------------
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        //getMenuInflater().inflate(R.menu.navigation_menu_help, menu);
+        //return true;
+        return false;
+    }
+
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        //Welcher Menüeintrag wurde geklickt
+        int id = item.getItemId();
+
+
+        if (mToggle.onOptionsItemSelected(item))
+        {
+
+            return true;
+        }
+
+
+        return super.onOptionsItemSelected(item);
+    }
+    //------------- NavigationBar ---------------------
 
     @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     private void showAllPositiveEntries(long Pairnumber) {

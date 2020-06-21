@@ -76,7 +76,7 @@ public class Text_Output extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 //Menüeintrag zum generieren
-                if (id == R.id.menu)
+                if (id == R.id.menu_main)
                 {
                     Intent generate = new Intent(Text_Output.this, MainActivity.class);
                     startActivity(generate);
@@ -135,6 +135,7 @@ public class Text_Output extends AppCompatActivity {
         //Videosequenz
         //which Videoview is used?
         final VideoView videoview = (VideoView) findViewById(R.id.playvideotextinput);
+        final MediaPlayer explosionsound = MediaPlayer.create(this, R.raw.explosion_4);
 
         //Which video should be played out of the raw folder?
         Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.explode);
@@ -192,6 +193,7 @@ public class Text_Output extends AppCompatActivity {
                 videoview.setVisibility(View.VISIBLE);
                 //Video wird abgespielt
                 videoview.start();
+                explosionsound.start();
 
 
 
@@ -214,8 +216,9 @@ public class Text_Output extends AppCompatActivity {
     //------------- NavigationBar ---------------------
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.navigation_menu_input, menu);
-        return true;
+        //getMenuInflater().inflate(R.menu.navigation_menu_help, menu);
+        //return true;
+        return false;
     }
 
 

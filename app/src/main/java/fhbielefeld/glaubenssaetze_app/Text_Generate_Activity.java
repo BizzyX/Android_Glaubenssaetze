@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.media.MediaPlayer;
 import android.net.Uri;
+import android.provider.MediaStore;
 import android.support.annotation.NonNull;
 import android.support.design.widget.NavigationView;
 import android.support.v4.widget.DrawerLayout;
@@ -51,7 +52,7 @@ public class Text_Generate_Activity extends AppCompatActivity {
         final Button btn = (Button) findViewById(R.id.button3);
         final Button btn2 = (Button) findViewById(R.id.button);
         btn.setVisibility(View.VISIBLE);
-        btn2.setVisibility(View.INVISIBLE);
+        btn2.setVisibility(View.VISIBLE);
 
 
 
@@ -75,6 +76,7 @@ public class Text_Generate_Activity extends AppCompatActivity {
         //Videosequenz
         //which Videoview is used?
         final VideoView videoview = (VideoView) findViewById(R.id.playvideosequenz);
+        final MediaPlayer explosionsound = MediaPlayer.create(this, R.raw.explosion_4);
 
         //Which video should be played out of the raw folder?
         Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.explode);
@@ -89,7 +91,7 @@ public class Text_Generate_Activity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int id = item.getItemId();
                 //Menüeintrag zum generieren
-                if (id == R.id.menu)
+                if (id == R.id.menu_main)
                 {
                     Intent generate = new Intent(Text_Generate_Activity.this, MainActivity.class);
                     startActivity(generate);
@@ -123,6 +125,22 @@ public class Text_Generate_Activity extends AppCompatActivity {
             }
         });
 
+        //generate a sentece out of the database
+        Random randomGenerator = new Random();
+        //Datenquelle wird geoeffnet
+        dataSource.open();
+        //Liste
+        List<GlaubenssaetzeMemo> glaubenssaetzeMemoList = dataSource.getAllGlaubenssaetzeMemos();
+        //get a random sentence from the list
+        int index = randomGenerator.nextInt(glaubenssaetzeMemoList.size());
+        GlaubenssaetzeMemo item = glaubenssaetzeMemoList.get(index);
+        String randomObject = item.getSentence().toString();
+        randomText.setText(randomObject);
+        setCurrentPairNumber(item.getPairnumber());
+        long Pairnumber = item.getPairnumber();
+        Log.d(LOG_TAG, "Die gematchte Paarnummer ist: " + Pairnumber);
+        dataSource.close();
+
 
         //------------- NavigationBar ---------------------
 
@@ -139,7 +157,7 @@ public class Text_Generate_Activity extends AppCompatActivity {
                 randomText.setError(null);
 
                 //Make the button invisible after a click
-                btn.setVisibility(View.INVISIBLE);
+                btn.setVisibility(View.VISIBLE);
                 btn2.setVisibility(View.VISIBLE);
 
                 //generate a sentece out of the database
@@ -180,8 +198,9 @@ public class Text_Generate_Activity extends AppCompatActivity {
                 //Make the videoviewbox visible
                 videoview.setVisibility(View.VISIBLE);
 
-                //start the video
+                //start the video & the sound
                 videoview.start();
+                explosionsound.start();
 
 
                 //go to the next activity when the video is finished
@@ -223,8 +242,9 @@ public class Text_Generate_Activity extends AppCompatActivity {
     //------------- NavigationBar ---------------------
     @Override
     public boolean onCreateOptionsMenu(Menu menu){
-        getMenuInflater().inflate(R.menu.navigation_menu_generate, menu);
-        return true;
+        //getMenuInflater().inflate(R.menu.navigation_menu_help, menu);
+        //return true;
+        return false;
     }
 
 

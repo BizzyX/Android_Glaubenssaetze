@@ -110,8 +110,8 @@ public class GlaubenssatzeMemoDataSource {
         long id = glaubenssaetzeMemo.getId();
 
         database.delete(GlaubenssaetzeMemoDbHelper.TABLE_SENTENCE_LIST,
-                        GlaubenssaetzeMemoDbHelper.COLUMN_ID + "=" + id,
-                        null);
+                GlaubenssaetzeMemoDbHelper.COLUMN_ID + "=" + id,
+                null);
 
         Log.d(LOG_TAG , "Eintrag gelöscht! ID: " + id +  " Inhalt: " + glaubenssaetzeMemo.toString());
     }//end of delete function
@@ -122,7 +122,7 @@ public class GlaubenssatzeMemoDataSource {
         values.put(GlaubenssaetzeMemoDbHelper.COLUMN_SENTENCE,newSentence);
 
         database.update(GlaubenssaetzeMemoDbHelper.TABLE_SENTENCE_LIST,
-                 values , GlaubenssaetzeMemoDbHelper.COLUMN_ID  + "=" + id,
+                values , GlaubenssaetzeMemoDbHelper.COLUMN_ID  + "=" + id,
                 null );
 
         Cursor cursor = database.query(GlaubenssaetzeMemoDbHelper.TABLE_SENTENCE_LIST,
@@ -162,13 +162,11 @@ public class GlaubenssatzeMemoDataSource {
     public List<GlaubenssaetzeMemo> getAllGlaubenssaetzeMemos() {
         //New Array List glaubenssaetzeMemoList
         List<GlaubenssaetzeMemo> glaubenssaetzeMemoList = new ArrayList<>();
-
         //Check if the status is "n" for negative
         String whereClause = " status =  ?";
         String[] whereArgs = new String[] {" n "};
         //Set the cursor to the database table 'TABLE_SENTENCE_LIST where whereClause => status = n
         Cursor cursor = database.query(GlaubenssaetzeMemoDbHelper.TABLE_SENTENCE_LIST , columns , whereClause , whereArgs, null , null , null);
-
         //Set the cursor to the first position
         cursor.moveToFirst();
         GlaubenssaetzeMemo glaubenssaetzeMemo;
