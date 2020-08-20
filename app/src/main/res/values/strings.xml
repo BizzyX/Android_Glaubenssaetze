@@ -3,7 +3,7 @@
     <string name="app_name">Glaubenssätze sprengen unterwegs</string>
     <string name="app_name_description">- Glaubenssätze sprengen unterwegs -</string>
     <string name="app_menu_start_button">Starten</string>
-    <string name="generate_negative">Ein Zufälliger negativer Glaubenssatz</string>
+    <string name="generate_negative">Ein zufälliger negativer Glaubenssatz</string>
     <string name="editText_error_message">Keine gültige Eingabe</string>
     <string name="sentence_generate_error">Zuerst muss ein zufälliger Satz generiert werden</string>
     <string name="cab_delete">Einträge löschen</string>
@@ -32,9 +32,9 @@
     <string name="satzpaare_anzeigen">Satzpaare anzeigen</string>
 
     <string name="ButtonErzeugen">Zufällig generieren</string>
-    <string name="Buttonloesen">Diesen Glaubenssatz auflösen</string>
+    <string name="Buttonloesen">Diesen Glaubenssatz sprengen</string>
     <string name="Buttonspeichern">Speichern</string>
-    <string name="Buttonknacken">Knacken</string>
+    <string name="Buttonknacken">Sprengen</string>
     <string name="Buttonweiterersatz">Weiteren auflösenden Glaubenssatz eingeben</string>
 
     <string name="wallnuss">wallnuss</string>

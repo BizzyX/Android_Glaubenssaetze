@@ -51,7 +51,6 @@
             style="@android:style/Widget.Button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawableLeft="@mipmap/hazelnuticon"
             android:fontFamily="casual"
             android:text="@string/app_menu_start_button"
             android:textSize="12sp"

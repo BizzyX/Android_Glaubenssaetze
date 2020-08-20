@@ -3,23 +3,19 @@
 
 
     <item android:id="@+id/menu_input"
-        android:icon="@mipmap/nuticon"
         android:title="@string/satzpaar_eingeben">
     </item>
 
     <item android:id="@+id/menu_generate"
-        android:icon="@mipmap/brazilnuticon"
         android:title="@string/satzpaar_generieren">
     </item>
 
     <item android:id="@+id/menu_list"
-        android:icon="@mipmap/hazelnuticon"
         android:title="@string/satzpaare_anzeigen">
     </item>
 
 
     <item android:id="@+id/menu_main"
-        android:icon="@mipmap/peanuticon"
         android:title="@string/Menu">
     </item>
 

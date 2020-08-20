@@ -289,8 +289,8 @@ public void addAllSentences()
         dataSource.createGlaubenssaetzeMemo(" p " , 3 , "Ich erreiche meine Ziele mit Leichtigkeit");
         dataSource.createGlaubenssaetzeMemo(" p " , 3 , "Ich löse alle Aufgaben schnell und leicht");
         //Pairnumber 4
-        dataSource.createGlaubenssaetzeMemo(" n " , 4 , "Im Studium erfolgreich zu sein, bedeutet Einzelgänger zu sein oder zu werden.");
-        dataSource.createGlaubenssaetzeMemo(" p " , 4 , "Es ist in Ordnung, wenn ich mehr Erfolg habe als andere. Ich bin eine Inspiration für andere. Meine Freunde und meine Familie sind stolz auf mich");
+//        dataSource.createGlaubenssaetzeMemo(" n " , 4 , "Im Studium erfolgreich zu sein, bedeutet Einzelgänger zu sein oder zu werden.");
+//        dataSource.createGlaubenssaetzeMemo(" p " , 4 , "Es ist in Ordnung, wenn ich mehr Erfolg habe als andere. Ich bin eine Inspiration für andere. Meine Freunde und meine Familie sind stolz auf mich");
 
         //Pairnumber 5
         dataSource.createGlaubenssaetzeMemo(" n " , 5 , "Ich bin nicht Intelligent genug, um wirklich erfolgreich im Studium zu sein");
@@ -324,8 +324,8 @@ public void addAllSentences()
         dataSource.createGlaubenssaetzeMemo(" p " ,11 , "Ich frage nach, wenn ich nicht weiterweiß");
 
         //Pairnumber 12
-        dataSource.createGlaubenssaetzeMemo(" n " , 12, "Ich bin nicht fleißig genug, um wirklich im Studium erfolgreich zu sein");
-        dataSource.createGlaubenssaetzeMemo(" p " , 12, "Satz fehlt - bitte nachtragen");
+//        dataSource.createGlaubenssaetzeMemo(" n " , 12, "Ich bin nicht fleißig genug, um wirklich im Studium erfolgreich zu sein");
+//        dataSource.createGlaubenssaetzeMemo(" p " , 12, "Satz fehlt - bitte nachtragen");
 
         //Pairnumber 13
         dataSource.createGlaubenssaetzeMemo(" n " , 13, "Wenn ich deutlich erfolgreicher wäre, würden andere mich für einen Streber halten");
