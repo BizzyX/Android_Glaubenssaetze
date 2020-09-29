@@ -7,7 +7,7 @@
     android:checkMark="?android:attr/listChoiceIndicatorMultiple"
     android:fontFamily="casual"
     android:gravity="center_vertical"
-    android:textStyle="bold"
+    android:textStyle="bold|italic"
     android:padding="5dp"
     android:paddingLeft="6dip"
     android:paddingRight="6dip"

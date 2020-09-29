@@ -8,6 +8,7 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,11 +19,7 @@ import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import java.util.List;
-import android.view.inputmethod.InputMethodManager;
-import android.text.TextUtils;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
+
 
 
 
@@ -34,33 +31,7 @@ import android.widget.EditText;
     MainActivity – Mit unserer Hauptklasse steuern wir die Datenbankzugriffe. In ihr haben wir unsere Datenquelle geöffnet und wieder geschlossen.
  */
 
-// TODO : AUFRÄUMEN!
-// TODO : Icons auf die Buttons -> Buttons schöner machen
-// TODO : Weiteren Seiten aufräumen und schöner gestalten
-// TODO:  Credit Nut Icon Source:Cartoon Nut Clip Art from ca.clipartlogo.com (by lemmling)
-// TODO:  Gleiche Groeße für alle Bildschirmgrößen - https://www.youtube.com/watch?v=Fexqyr1MBbo
 
-
-/*
-
-    TODO:
-    Änderungen Ohlhoff
-    --------------------------------------------------
-
-    1.) als Überschrift immer und überall "Glaubenssätze knacken" statt einfach nur "Glaubenssätze"
-
-    2.) Die 3 Striche oben links um ins Menü zu kommen, sollten immer und auf allen Ebenen da sein.
-
-    3.) Glaubenssätze sind manchmal zu lang: kürzen oder zum scrollen anbieten, z.B. bei Glaubenssatz lösen: " Es ist in Ordnung, wenn ich mehr Erfolg....."
-
-    4.) bei "Satzpaar generieren" sollte gleich ein Satz kommen, ohne daß man nochmal drücken muß
-
-    5.) wenn ein "zufälliger negativer Glaubenssatz" angezeigt wird, sollte es 2 Buttons geben: " den glaubenssatz auflösen" (gibt es schon) und "anderen zufälligen Satz generieren"
-
-    Änderungen Klenke
-    ---------------------------------------------------
-
- */
 
 
 /*
@@ -93,12 +64,12 @@ public class MainActivity extends AppCompatActivity {
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         //------------- NavigationBar ---------------------
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);

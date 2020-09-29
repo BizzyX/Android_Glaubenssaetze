@@ -2,8 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
 
-    <item android:id="@+id/menu_input"
+    <item
+        android:id="@+id/menu_input"
         android:title="@string/satzpaar_eingeben">
+
     </item>
 
     <item android:id="@+id/menu_generate"

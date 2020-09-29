@@ -54,6 +54,7 @@
             android:fontFamily="casual"
             android:text="@string/app_menu_start_button"
             android:textSize="12sp"
+            android:textStyle="bold|italic"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
