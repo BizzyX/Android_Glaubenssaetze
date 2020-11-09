@@ -1,15 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_contextual_action_bar.xml.flat",
-        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\menu\\menu_contextual_action_bar.xml"
-    },
-    {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout-hdpi_activity_text_output.xml.flat",
         "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout-hdpi\\activity_text_output.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_text_generate_answer.xml.flat",
-        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\layout\\activity_text_generate_answer.xml"
+        "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\menu_menu_contextual_action_bar.xml.flat",
+        "source": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\src\\main\\res\\menu\\menu_contextual_action_bar.xml"
     },
     {
         "merged": "C:\\Users\\Phil\\Documents\\GitHub\\Android_Glaubenssaetze\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher_background.png.flat",

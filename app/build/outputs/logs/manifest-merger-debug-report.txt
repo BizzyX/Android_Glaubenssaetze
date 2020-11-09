@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-50:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Phil\.gradle\caches\transforms-2\files-2.1\97d375f2d1c6efd6189bd3bf7948bbc3\design-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Phil\.gradle\caches\transforms-2\files-2.1\cd5043b2d60affb50551ce51bb51dec1\appcompat-v7-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Phil\.gradle\caches\transforms-2\files-2.1\6f0b0916ff5f97d7f64be501e6c16da4\constraint-layout-1.0.2\AndroidManifest.xml:2:1-11:12
@@ -19,22 +19,22 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Phil\.gradl
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Phil\.gradle\caches\transforms-2\files-2.1\f4a4de359bb71e3ff551206cdce8ad96\support-core-ui-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Phil\.gradle\caches\transforms-2\files-2.1\220c9c180e8e9618ecf7bb8e2f1eddbb\support-compat-26.1.0\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Phil\.gradle\caches\transforms-2\files-2.1\1f45d69d51a7cd9269ac5863e813b302\runtime-1.0.0\AndroidManifest.xml:17:1-30:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-52:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-50:12
+INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:4:5-45
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-52:12
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:1-50:12
 		INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:2:11-69
@@ -57,7 +57,7 @@ ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\An
 	android:anyDensity
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:12:9-34
 application
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:16:5-50:19
+ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:16:5-48:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Phil\.gradle\caches\transforms-2\files-2.1\97d375f2d1c6efd6189bd3bf7948bbc3\design-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Phil\.gradle\caches\transforms-2\files-2.1\97d375f2d1c6efd6189bd3bf7948bbc3\design-26.1.0\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Phil\.gradle\caches\transforms-2\files-2.1\cd5043b2d60affb50551ce51bb51dec1\appcompat-v7-26.1.0\AndroidManifest.xml:25:5-29:19
@@ -128,54 +128,46 @@ ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\An
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:36:9-49
 	android:name
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:35:15-53
-activity#fhbielefeld.glaubenssaetze_app.Text_Generate_Activity_Answer
+activity#fhbielefeld.glaubenssaetze_app.Text_Output
 ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:37:9-38:56
 	android:screenOrientation
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:37:65-101
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:37:47-83
 	tools:ignore
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:38:13-53
 	android:name
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:37:19-64
-activity#fhbielefeld.glaubenssaetze_app.Text_Output
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:39:9-40:56
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:37:19-46
+activity#fhbielefeld.glaubenssaetze_app.Sentence_List
+ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:39:9-40:55
 	android:screenOrientation
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:39:47-83
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:39:50-86
 	tools:ignore
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:40:13-53
 	android:name
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:39:19-46
-activity#fhbielefeld.glaubenssaetze_app.Sentence_List
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:39:19-48
+activity#fhbielefeld.glaubenssaetze_app.Help
 ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:41:9-42:55
 	android:screenOrientation
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:41:50-86
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:41:41-77
 	tools:ignore
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:42:13-53
 	android:name
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:41:19-48
-activity#fhbielefeld.glaubenssaetze_app.Help
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:43:9-44:55
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:41:19-39
+activity#fhbielefeld.glaubenssaetze_app.Text_Output_Positiv
+ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:43:9-44:65
 	android:screenOrientation
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:43:41-77
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:43:55-91
 	tools:ignore
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:44:13-53
 	android:name
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:43:19-39
-activity#fhbielefeld.glaubenssaetze_app.Text_Output_Positiv
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:45:9-46:65
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:43:19-54
+activity#fhbielefeld.glaubenssaetze_app.Sentence_List_Positiv
+ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:45:9-47:20
 	android:screenOrientation
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:45:55-91
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:45:57-93
 	tools:ignore
 		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:46:13-53
 	android:name
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:45:19-54
-activity#fhbielefeld.glaubenssaetze_app.Sentence_List_Positiv
-ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:47:9-49:20
-	android:screenOrientation
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:47:57-93
-	tools:ignore
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:48:13-53
-	android:name
-		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:47:19-56
+		ADDED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml:45:19-56
 uses-sdk
 INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Phil\Documents\GitHub\Android_Glaubenssaetze\app\src\main\AndroidManifest.xml
